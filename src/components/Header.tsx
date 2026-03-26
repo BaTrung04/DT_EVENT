@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/hooks/useLanguage";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -73,13 +74,14 @@ export default function Header() {
             transition={{ duration: 0.2 }}
           >
             <Link href="/" className="flex items-center space-x-2">
-              <motion.div
-                className="w-10 h-10 gold-gradient rounded-full flex items-center justify-center"
-                whileHover={{ rotate: 360 }}
-                transition={{ duration: 0.6 }}
-              >
-                <span className="text-black font-bold text-xl">D</span>
-              </motion.div>
+              <Image
+                src="/logo.svg"
+                alt="DT Entertainment"
+                width={40}
+                height={40}
+                className="object-contain rounded-full border border-[#D4AF37]"
+              />
+
               <span className="text-white text-xl font-bold gold-text">
                 DT Entertainment
               </span>

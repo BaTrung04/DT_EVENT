@@ -15,7 +15,7 @@ export default function Services() {
     {
       titleKey: "services.artPerformance.title",
       descriptionKey: "services.artPerformance.description",
-      icon: "🎪",
+      icon: "✈️",
     },
     {
       titleKey: "services.brandMedia.title",

@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/hooks/useLanguage";
+import Image from "next/image";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -12,7 +13,13 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 gold-gradient rounded-full flex items-center justify-center">
-                <span className="text-black font-bold text-xl">D</span>
+                <Image
+                  src="/logo.svg"
+                  alt="DT Entertainment"
+                  width={40}
+                  height={40}
+                  className="object-contain rounded-full border border-[#D4AF37]"
+                />{" "}
               </div>
               <span className="text-white text-xl font-bold gold-text">
                 DT Entertainment

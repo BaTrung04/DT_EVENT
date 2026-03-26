@@ -42,7 +42,7 @@ export default function About() {
 
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-bold gold-text mb-2">2024</div>
+                <div className="text-3xl font-bold gold-text mb-2">2026</div>
                 <div className="text-gray-400">{t("about.founded")}</div>
               </div>
               <div className="text-center">

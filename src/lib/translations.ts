@@ -9,10 +9,10 @@ export const translations = {
       contactNow: "Liên hệ ngay",
     },
     hero: {
-      title: "CÔNG TY CỔ PHẦN",
-      subtitle: "GIẢI TRÍ VŨ TRỤ",
+      title: "CÔNG TY TRÁCH NHIỆM HỮU HẠN",
+      subtitle: "DT EVENT & TRAVEL",
       description:
-        "Chính khát vọng chinh phục những giới hạn mới đã thôi thúc chúng tôi thành lập DT Entertainment vào năm 2024 – thương hiệu chuyên sâu hoạt động trong lĩnh vực Tổ chức Sự kiện, Biểu diễn Nghệ thuật và Truyền thông Thương hiệu.",
+        "Chính khát vọng chinh phục những giới hạn mới đã thôi thúc chúng tôi thành lập DT EVENT & TRAVEL vào năm 2026 – thương hiệu chuyên sâu hoạt động trong lĩnh vực Tổ chức Sự kiện, Truyền thông Thương hiệu và du lịch.",
       subDescription:
         "Đây không phải là sự khởi đầu, mà là bước tiếp nối chiến lược.",
       exploreServices: "Khám phá dịch vụ",
@@ -28,9 +28,9 @@ export const translations = {
           "Tổ chức các sự kiện chuyên nghiệp từ lễ kỷ niệm, hội nghị đến các sự kiện thương hiệu lớn",
       },
       artPerformance: {
-        title: "Biểu diễn Nghệ thuật",
+        title: "Du lịch",
         description:
-          "Sản xuất và biểu diễn các chương trình nghệ thuật đẳng cấp và sáng tạo",
+          "Tổ chức các chuyến du lịch chuyên nghiệp, khám phá và trải nghiệm",
       },
       brandMedia: {
         title: "Truyền thông Thương hiệu",
@@ -83,7 +83,7 @@ export const translations = {
     about: {
       title: "Về chúng tôi",
       description:
-        "Công ty Cổ phần Giải trí Vũ trụ (DT Entertainment) là đơn vị tổ chức sự kiện được xây dựng trên nền tảng kết hợp giữa kinh nghiệm vững chắc và năng lượng sáng tạo đột phá.",
+        "Công ty trách nhiệm hữu hạn DT EVENT & TRAVEL là đơn vị tổ chức sự kiện được xây dựng trên nền tảng kết hợp giữa kinh nghiệm vững chắc và năng lượng sáng tạo đột phá.",
       subDescription:
         "Chúng tôi cung cấp các giải pháp toàn diện để thực thi những sự kiện chỉn chu, hiệu quả và giàu ý nghĩa. Hãy để chúng tôi cùng bạn kể câu chuyện bằng những trải nghiệm sáng tạo và đầy dấu ấn.",
       founded: "Năm thành lập",
@@ -92,15 +92,15 @@ export const translations = {
     },
     footer: {
       description:
-        "Công ty Cổ phần Giải trí Vũ trụ - Đơn vị tổ chức sự kiện chuyên nghiệp, sáng tạo và đẳng cấp.",
+        "Công ty trách nhiệm hữu hạn DT EVENT & TRAVEL - Đơn vị tổ chức sự kiện chuyên nghiệp, sáng tạo và đẳng cấp.",
       quickLinks: "Liên kết nhanh",
       contact: "Liên hệ",
       address:
-        "Tầng 7 - Tòa nhà An Phú, Số 24 Hoàng Quốc Việt, Phường Nghĩa Đô, Thành phố Hà Nội, Việt Nam",
-      phone: "098.281.5682",
-      email: "info@DTentertainment.vn",
+        "Tầng 7 - Tòa nhà An Phú, Số 24 Hoàng Quốc Việt, Phường Nghĩa Đô, Thành phố Hà Nội, Việt Nam",
+      phone: "0333 703 374",
+      email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2024 DT Entertainment. Mã số thuế: 0110922180. All rights reserved.",
+        "© 2026 DT EVENT & TRAVEL. Mã số thuế: 0110922180. All rights reserved.",
     },
     floatingButtons: {
       call: "Gọi ngay",
@@ -119,10 +119,10 @@ export const translations = {
       contactNow: "Contact Now",
     },
     hero: {
-      title: "DT ENTERTAINMENT",
-      subtitle: "JOINT STOCK COMPANY",
+      title: "DT EVENT & TRAVEL",
+      subtitle: "LIMITED LIABILITY COMPANY",
       description:
-        "The aspiration to conquer new limits motivated us to establish DT Entertainment in 2024 - a brand specializing in Event Organization, Art Performance, and Brand Media.",
+        "The aspiration to conquer new limits motivated us to establish DT EVENT & TRAVEL in 2026 - a brand specializing in Event Organization, Brand Media, and Tourism.",
       subDescription:
         "This is not the beginning, but the continuation of the strategy.",
       exploreServices: "Explore Services",
@@ -138,9 +138,9 @@ export const translations = {
           "Professional event organization from anniversaries, conferences to major brand events",
       },
       artPerformance: {
-        title: "Art Performance",
+        title: "Tourism",
         description:
-          "Producing and performing classy and creative art programs",
+          "Professional travel organization, exploration and experiences",
       },
       brandMedia: {
         title: "Brand Media",
@@ -192,7 +192,7 @@ export const translations = {
     about: {
       title: "About Us",
       description:
-        "DT Entertainment Joint Stock Company is an event organization unit built on the foundation of combining solid experience and breakthrough creative energy.",
+        "DT EVENT & TRAVEL Limited Liability Company is an event organization unit built on the foundation of combining solid experience and breakthrough creative energy.",
       subDescription:
         "We provide comprehensive solutions to execute sophisticated, effective and meaningful events. Let us help you tell stories through creative and impressive experiences.",
       founded: "Founded",
@@ -201,14 +201,15 @@ export const translations = {
     },
     footer: {
       description:
-        "DT Entertainment Joint Stock Company - Professional, creative and classy event organization unit.",
+        "DT EVENT & TRAVEL Limited Liability Company - Professional, creative and classy event organization unit.",
       quickLinks: "Quick Links",
       contact: "Contact",
       address:
         "Floor 7 - An Phu Building, No. 24 Hoang Quoc Viet, Nghia Do Ward, Hanoi, Vietnam",
-      phone: "+84 982 815 682",
-      email: "info@DTentertainment.vn",
-      copyright: "Copyright 2024 DT Entertainment. All rights reserved.",
+      phone: "+84 333 703 374",
+      email: "dteventandtravel8230@gmail.com",
+      copyright:
+        "© 2026 DT EVENT & TRAVEL. Tax code: 0110922180. All rights reserved.",
     },
     floatingButtons: {
       call: "Call Now",
@@ -227,10 +228,10 @@ export const translations = {
       contactNow: "지금 연락",
     },
     hero: {
-      title: "코스모 엔터테인먼트",
-      subtitle: "주식회사",
+      title: "DT EVENT & TRAVEL",
+      subtitle: "유한 책임 회사",
       description:
-        "새로운 한계를 정복하려는 열망이 2024년 코스모 엔터테인먼트를 설립하도록 동기를 부여했습니다 - 이벤트 조직, 예술 공연 및 브랜드 미디어 전문 브랜드.",
+        "새로운 한계를 정복하려는 열망이 2026년 DT EVENT & TRAVEL를 설립하도록 동기를 부여했습니다 - 이벤트 조직, 브랜드 미디어 및 관광 전문 브랜드.",
       subDescription: "이것은 시작이 아니라 전략의 연속입니다.",
       exploreServices: "서비스 탐색",
       viewProjects: "프로젝트 보기",
@@ -245,8 +246,8 @@ export const translations = {
           "기념일, 컨퍼런스부터 주요 브랜드 이벤트까지 전문적인 이벤트 조직",
       },
       artPerformance: {
-        title: "예술 공연",
-        description: "세련되고 창의적인 예술 프로그램 제작 및 공연",
+        title: "관광",
+        description: "전문적인 여행 조직, 탐험 및 경험",
       },
       brandMedia: {
         title: "브랜드 미디어",
@@ -295,7 +296,7 @@ export const translations = {
     about: {
       title: "회사 소개",
       description:
-        "코스모 엔터테인먼트 주식회사는 견고한 경험과 돌파적인 창의적 에너지를 결합한 기반 위에 구축된 이벤트 조직 단위입니다.",
+        "DT EVENT & TRAVEL 유한 책임 회사는 견고한 경험과 돌파적인 창의적 에너지를 결합한 기반 위에 구축된 이벤트 조직 단위입니다.",
       subDescription:
         "우리는 정교하고 효과적이며 의미 있는 이벤트를 실행하기 위한 포괄적인 솔루션을 제공합니다. 창의적이고 인상적인 경험을 통해 이야기를 들려드리겠습니다.",
       founded: "설립",
@@ -304,15 +305,15 @@ export const translations = {
     },
     footer: {
       description:
-        "코스모 엔터테인먼트 주식회사 - 전문적이고 창의적이며 세련된 이벤트 조직 단위.",
+        "DT EVENT & TRAVEL 유한 책임 회사 - 전문적이고 창의적이며 세련된 이벤트 조직 단위.",
       quickLinks: "빠른 링크",
       contact: "연락처",
       address:
         "7층 - 안푸 빌딩, 24호 호앙꾸옥비엣, 녀아도 워드, 하노이, 베트남",
-      phone: "+84 982 815 682",
-      email: "info@DTentertainment.vn",
+      phone: "+84 333 703 374",
+      email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2024 DT Entertainment. 세금 코드: 0110922180. 모든 권리 보유.",
+        "© 2026 DT EVENT & TRAVEL. 세금 코드: 0110922180. 모든 권리 보유.",
     },
     floatingButtons: {
       call: "지금 전화",
