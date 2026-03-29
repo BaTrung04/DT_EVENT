@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/hooks/useLanguage";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   const { t } = useLanguage();
@@ -89,20 +90,24 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.1 }}
           >
-            <motion.button
-              className="gold-gradient text-black px-8 py-4 rounded-full font-bold text-lg hover:opacity-90 transition-opacity duration-300"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {t("hero.exploreServices")}
-            </motion.button>
-            <motion.button
-              className="border-2 border-[#D4AF37] text-[#D4AF37] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {t("hero.viewProjects")}
-            </motion.button>
+            <Link href="/dich-vu">
+              <motion.button
+                className="gold-gradient text-black px-8 py-4 rounded-full font-bold text-lg hover:opacity-90 transition-opacity duration-300 cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                {t("hero.exploreServices")}
+              </motion.button>
+            </Link>
+            <Link href="/du-an">
+              <motion.button
+                className="border-2 border-[#D4AF37] text-[#D4AF37] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#D4AF37] hover:text-black transition-all duration-300 cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                {t("hero.viewProjects")}
+              </motion.button>
+            </Link>
           </motion.div>
         </div>
       </div>

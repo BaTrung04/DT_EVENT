@@ -1,9 +1,11 @@
 "use client";
 
 import { useLanguage } from "@/hooks/useLanguage";
+import { useRouter } from "next/navigation";
 
 export default function About() {
   const { t } = useLanguage();
+  const router = useRouter();
 
   return (
     <section id="about" className="py-20 bg-black">
@@ -53,7 +55,10 @@ export default function About() {
               </div>
             </div>
 
-            <button className="gold-gradient text-black px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity duration-300">
+            <button
+              className="gold-gradient text-black px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity duration-300 cursor-pointer"
+              onClick={() => router.push("/ve-chung-toi")}
+            >
               {t("about.learnMore")}
             </button>
           </div>

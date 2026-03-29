@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/hooks/useLanguage";
 import { motion } from "framer-motion";
+import { FaCalendarAlt, FaUsers, FaBullhorn } from "react-icons/fa";
 
 export default function Services() {
   const { t } = useLanguage();
@@ -10,17 +11,20 @@ export default function Services() {
     {
       titleKey: "services.eventOrganization.title",
       descriptionKey: "services.eventOrganization.description",
-      icon: "🎭",
+      icon: <FaCalendarAlt className="w-8 h-8" />,
+      color: "from-blue-500 to-blue-600",
     },
     {
       titleKey: "services.artPerformance.title",
       descriptionKey: "services.artPerformance.description",
-      icon: "✈️",
+      icon: <FaUsers className="w-8 h-8" />,
+      color: "from-green-500 to-green-600",
     },
     {
       titleKey: "services.brandMedia.title",
       descriptionKey: "services.brandMedia.description",
-      icon: "📢",
+      icon: <FaBullhorn className="w-8 h-8" />,
+      color: "from-purple-500 to-purple-600",
     },
   ];
 
@@ -74,34 +78,24 @@ export default function Services() {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              variants={itemVariants}
-              className="group relative bg-gradient-to-b from-[#1a1a1a] to-black border border-[#D4AF37]/20 rounded-2xl p-8 hover:border-[#D4AF37]/50 transition-all duration-300"
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0 20px 40px rgba(212, 175, 55, 0.3)",
-              }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
+              className="cursor-pointer bg-gray-900 border border-[#D4AF37]/20 rounded-lg p-8 hover:border-[#D4AF37]/40 hover:scale-105 transition-all"
             >
-              <motion.div
-                className="absolute inset-0 gold-gradient opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300"
-                initial={{ opacity: 0 }}
-                whileHover={{ opacity: 0.1 }}
-              />
-
-              <div className="relative z-10">
-                <motion.div
-                  className="text-5xl mb-6"
-                  whileHover={{ scale: 1.2, rotate: 5 }}
-                  transition={{ duration: 0.3 }}
-                >
-                  {service.icon}
-                </motion.div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#D4AF37] transition-colors duration-300">
-                  {t(service.titleKey)}
-                </h3>
-                <p className="text-gray-400 leading-relaxed">
-                  {t(service.descriptionKey)}
-                </p>
+              <div
+                className={`w-16 h-16 bg-gradient-to-r ${service.color} rounded-full flex items-center justify-center mb-6`}
+              >
+                {service.icon}
               </div>
+
+              <h3 className="text-xl font-bold mb-3 gold-text">
+                {t(service.titleKey)}
+              </h3>
+
+              <p className="text-gray-400 text-sm">
+                {t(service.descriptionKey)}
+              </p>
             </motion.div>
           ))}
         </motion.div>

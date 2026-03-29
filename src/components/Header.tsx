@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useLanguage } from "@/hooks/useLanguage";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
@@ -10,6 +11,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
   const { language, changeLanguage, t } = useLanguage();
+  const pathname = usePathname();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = [
@@ -89,24 +91,32 @@ export default function Header() {
           </motion.div>
 
           <div className="hidden md:flex items-center space-x-8">
-            {["home", "services", "projects", "about", "contact"].map(
-              (item, index) => (
-                <motion.div
-                  key={item}
-                  variants={linkVariants}
-                  initial="hidden"
-                  animate="visible"
-                  transition={{ delay: index * 0.1 }}
+            {[
+              { key: "home", href: "/" },
+              { key: "services", href: "/dich-vu" },
+              { key: "projects", href: "/du-an" },
+              { key: "about", href: "/ve-chung-toi" },
+              { key: "contact", href: "/lien-he" },
+            ].map((item, index) => (
+              <motion.div
+                key={item.key}
+                variants={linkVariants}
+                initial="hidden"
+                animate="visible"
+                transition={{ delay: index * 0.1 }}
+              >
+                <Link
+                  href={item.href}
+                  className={`transition-colors duration-300 inline-block ${
+                    pathname === item.href
+                      ? "text-[#D4AF37] font-semibold"
+                      : "text-white hover:text-[#D4AF37]"
+                  }`}
                 >
-                  <Link
-                    href={`#${item}`}
-                    className="text-white hover:text-[#D4AF37] transition-colors duration-300 inline-block"
-                  >
-                    {t(`header.${item}`)}
-                  </Link>
-                </motion.div>
-              ),
-            )}
+                  {t(`header.${item.key}`)}
+                </Link>
+              </motion.div>
+            ))}
 
             <motion.div
               className="relative"
@@ -235,24 +245,32 @@ export default function Header() {
               transition={{ duration: 0.3 }}
             >
               <div className="flex flex-col space-y-4">
-                {["home", "services", "projects", "about", "contact"].map(
-                  (item, index) => (
-                    <motion.div
-                      key={item}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: index * 0.1 }}
+                {[
+                  { key: "home", href: "/" },
+                  { key: "services", href: "/dich-vu" },
+                  { key: "projects", href: "/du-an" },
+                  { key: "about", href: "/ve-chung-toi" },
+                  { key: "contact", href: "/lien-he" },
+                ].map((item, index) => (
+                  <motion.div
+                    key={item.key}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.1 }}
+                  >
+                    <Link
+                      href={item.href}
+                      className={`transition-colors duration-300 inline-block ${
+                        pathname === item.href
+                          ? "text-[#D4AF37] font-semibold"
+                          : "text-white hover:text-[#D4AF37]"
+                      }`}
+                      onClick={() => setIsMenuOpen(false)}
                     >
-                      <Link
-                        href={`#${item}`}
-                        className="text-white hover:text-[#D4AF37] transition-colors duration-300 inline-block"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        {t(`header.${item}`)}
-                      </Link>
-                    </motion.div>
-                  ),
-                )}
+                      {t(`header.${item.key}`)}
+                    </Link>
+                  </motion.div>
+                ))}
 
                 <motion.div className="relative" ref={dropdownRef}>
                   <motion.button

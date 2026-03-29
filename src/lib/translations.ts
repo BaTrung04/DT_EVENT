@@ -95,8 +95,7 @@ export const translations = {
         "Công ty trách nhiệm hữu hạn DT EVENT & TRAVEL - Đơn vị tổ chức sự kiện chuyên nghiệp, sáng tạo và đẳng cấp.",
       quickLinks: "Liên kết nhanh",
       contact: "Liên hệ",
-      address:
-        "Tầng 7 - Tòa nhà An Phú, Số 24 Hoàng Quốc Việt, Phường Nghĩa Đô, Thành phố Hà Nội, Việt Nam",
+      address: "Số 22, Thôn Phương Triện, Xã Đại Lai, Tỉnh Bắc Ninh, Việt Nam",
       phone: "0333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
@@ -205,7 +204,7 @@ export const translations = {
       quickLinks: "Quick Links",
       contact: "Contact",
       address:
-        "Floor 7 - An Phu Building, No. 24 Hoang Quoc Viet, Nghia Do Ward, Hanoi, Vietnam",
+        "No. 22, Phuong Tien Village, Dai Lai Commune, Bac Ninh Province, Vietnam",
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
@@ -309,7 +308,7 @@ export const translations = {
       quickLinks: "빠른 링크",
       contact: "연락처",
       address:
-        "7층 - 안푸 빌딩, 24호 호앙꾸옥비엣, 녀아도 워드, 하노이, 베트남",
+        "No. 22, Phuong Tien Village, Dai Lai Commune, Bac Ninh Province, Vietnam",
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
