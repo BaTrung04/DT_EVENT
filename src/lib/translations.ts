@@ -26,16 +26,43 @@ export const translations = {
         title: "Tổ chức Sự kiện",
         description:
           "Tổ chức các sự kiện chuyên nghiệp từ lễ kỷ niệm, hội nghị đến các sự kiện thương hiệu lớn",
+        detail:
+          "Chúng tôi cung cấp dịch vụ tổ chức sự kiện trọn gói từ A-Z: lên ý tưởng, kịch bản, thiết kế, thi công và vận hành. Đảm bảo sự kiện diễn ra chuyên nghiệp, ấn tượng và đúng mục tiêu thương hiệu.",
       },
       artPerformance: {
-        title: "Du lịch",
+        title: "Biểu diễn nghệ thuật",
         description:
-          "Tổ chức các chuyến du lịch chuyên nghiệp, khám phá và trải nghiệm",
+          "Cung cấp các tiết mục nghệ thuật đặc sắc: ca sĩ, dancer, MC, ban nhạc...",
+        detail:
+          "Đa dạng các loại hình biểu diễn nghệ thuật: ca sĩ nổi tiếng, nhóm nhảy, múa LED, band acoustic, DJ... giúp sự kiện của bạn trở nên sôi động và thu hút.",
       },
       brandMedia: {
         title: "Truyền thông Thương hiệu",
         description:
           "Xây dựng chiến lược truyền thông hiệu quả để nâng cao nhận diện thương hiệu",
+        detail:
+          "Chúng tôi hỗ trợ xây dựng chiến lược truyền thông tổng thể: online + offline, kết hợp social media, KOLs và quảng cáo để tăng độ phủ thương hiệu.",
+      },
+      eventEquipment: {
+        title: "Cho thuê thiết bị sự kiện",
+        description:
+          "Cung cấp âm thanh, ánh sáng, màn LED, sân khấu chuyên nghiệp",
+        detail:
+          "Hệ thống thiết bị hiện đại: âm thanh line array, ánh sáng sân khấu, màn hình LED, backdrop... đáp ứng mọi quy mô sự kiện.",
+      },
+      conceptScript: {
+        title: "Ý tưởng & kịch bản",
+        description:
+          "Sáng tạo concept độc đáo, xây dựng kịch bản sự kiện chuyên nghiệp",
+        detail:
+          "Đội ngũ sáng tạo giúp bạn xây dựng concept riêng biệt, tạo dấu ấn mạnh mẽ và khác biệt cho từng sự kiện.",
+      },
+      mediaProduction: {
+        title: "Media & sản xuất",
+        description:
+          "Quay phim, chụp ảnh, livestream và sản xuất video chuyên nghiệp",
+        detail:
+          "Dịch vụ media trọn gói: quay phim, chụp ảnh, livestream, dựng video highlight giúp lan tỏa sự kiện mạnh mẽ.",
       },
       learnMore: "Tìm hiểu thêm",
     },
@@ -107,6 +134,27 @@ export const translations = {
       messenger: "Messenger",
       facebook: "Facebook",
     },
+    contact: {
+      title: "Liên hệ",
+      description:
+        "Hãy liên hệ với chúng tôi để được tư vấn và báo giá miễn phí",
+      contactInfo: "Thông tin liên hệ",
+      phone: "Điện thoại",
+      email: "Email",
+      address: "Địa chỉ",
+      workingHours: "Giờ làm việc",
+      workingHoursContent: "Thứ 2 - Thứ 7: 8:00 - 18:00",
+      sendMessage: "Gửi tin nhắn",
+      name: "Họ và tên",
+      emailPlaceholder: "Email của bạn",
+      message: "Tin nhắn",
+      submit: "Gửi",
+      quickResponse: "Phản hồi nhanh",
+      quickResponseDesc: "Chúng tôi cam kết phản hồi trong vòng 24 giờ làm việc",
+      professional: "Chuyên nghiệp",
+      fast: "Nhanh chóng",
+      effective: "Hiệu quả",
+    },
   },
   en: {
     header: {
@@ -135,16 +183,43 @@ export const translations = {
         title: "Event Organization",
         description:
           "Professional event organization from anniversaries, conferences to major brand events",
+        detail:
+          "We provide comprehensive event organization services from A-Z: concept development, scripting, design, implementation and operation. Ensuring events run professionally, impressively and meet brand objectives.",
       },
       artPerformance: {
-        title: "Tourism",
+        title: "Art Performance",
         description:
-          "Professional travel organization, exploration and experiences",
+          "Providing special artistic performances: singers, dancers, MCs, bands...",
+        detail:
+          "Diverse artistic performance types: famous singers, dance groups, LED dancers, acoustic bands, DJs... making your events more vibrant and attractive.",
       },
       brandMedia: {
         title: "Brand Media",
         description:
           "Building effective communication strategies to enhance brand recognition",
+        detail:
+          "We support building comprehensive communication strategies: online + offline, combining social media, KOLs and advertising to increase brand coverage.",
+      },
+      eventEquipment: {
+        title: "Event Equipment Rental",
+        description:
+          "Providing audio, lighting, LED screens, professional stages",
+        detail:
+          "Modern equipment systems: line array audio, stage lighting, LED screens, backdrops... meeting all event scales.",
+      },
+      conceptScript: {
+        title: "Concepts & Scripts",
+        description:
+          "Creating unique concepts, professional event scriptwriting",
+        detail:
+          "Our creative team helps you build distinctive concepts, creating strong and different impressions for each event.",
+      },
+      mediaProduction: {
+        title: "Media & Production",
+        description:
+          "Filming, photography, livestreaming and professional video production",
+        detail:
+          "Comprehensive media services: filming, photography, livestreaming, video highlight production to help spread events powerfully.",
       },
       learnMore: "Learn More",
     },
@@ -208,7 +283,28 @@ export const translations = {
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2026 DT EVENT & TRAVEL. Tax code: 0110922180. All rights reserved.",
+        " 2026 DT EVENT & TRAVEL. Tax code: 0110922180. All rights reserved.",
+    },
+    contact: {
+      title: "Contact",
+      description:
+        "Contact us for free consultation and quotation",
+      contactInfo: "Contact Information",
+      phone: "Phone",
+      email: "Email",
+      address: "Address",
+      workingHours: "Working Hours",
+      workingHoursContent: "Monday - Saturday: 8:00 - 18:00",
+      sendMessage: "Send Message",
+      name: "Name",
+      emailPlaceholder: "Your Email",
+      message: "Message",
+      submit: "Send",
+      quickResponse: "Quick Response",
+      quickResponseDesc: "We commit to respond within 24 working hours",
+      professional: "Professional",
+      fast: "Fast",
+      effective: "Effective",
     },
     floatingButtons: {
       call: "Call Now",
@@ -243,15 +339,43 @@ export const translations = {
         title: "이벤트 조직",
         description:
           "기념일, 컨퍼런스부터 주요 브랜드 이벤트까지 전문적인 이벤트 조직",
+        detail:
+          "A-Z 종합 이벤트 조직 서비스 제공: 컨셉트 개발, 스크립트 작성, 디자인, 실행 및 운영. 이벤트가 전문적으로, 인상적으로 진행되고 브랜드 목표를 달성하도록 보장합니다.",
       },
       artPerformance: {
-        title: "관광",
-        description: "전문적인 여행 조직, 탐험 및 경험",
+        title: "예술 공연",
+        description:
+          "특별한 예술 공연 제공: 가수, 댄서, MC, 밴드...",
+        detail:
+          "다양한 예술 공연 유형: 유명 가수, 댄스 그룹, LED 댄서, 어쿠스틱 밴드, DJ... 이벤트를 더욱 활기차고 매력적으로 만듭니다.",
       },
       brandMedia: {
         title: "브랜드 미디어",
         description:
           "브랜드 인지도를 높이기 위한 효과적인 커뮤니케이션 전략 구축",
+        detail:
+          "종합 커뮤니케이션 전략 구축 지원: 온라인 + 오프라인, 소셜 미디어, KOL 및 광고 결합으로 브랜드 커버리지 증가.",
+      },
+      eventEquipment: {
+        title: "이벤트 장비 대여",
+        description:
+          "오디오, 조명, LED 화면, 전문적인 무대 제공",
+        detail:
+          "현대적 장비 시스템: 라인 어레이 오디오, 스테이지 조명, LED 화면, 백드롭... 모든 규모의 이벤트 대응.",
+      },
+      conceptScript: {
+        title: "콘셉트 및 대본",
+        description:
+          "독특한 콘셉트 창출, 전문적인 이벤트 대본 작성",
+        detail:
+          "크리에이티브 팀이 독특한 콘셉트 구축을 도와드립니다. 각 이벤트에 강력하고 차별적인 인상을 창출.",
+      },
+      mediaProduction: {
+        title: "미디어 및 제작",
+        description:
+          "영화 촬영, 사진 촬영, 라이브 스트리밍 및 전문적인 비디오 제작",
+        detail:
+          "종합 미디어 서비스: 영화 촬영, 사진 촬영, 라이브 스트리밍, 비디오 하이라이트 제작으로 이벤트를 강력하게 확산.",
       },
       learnMore: "더 알아보기",
     },
@@ -295,12 +419,33 @@ export const translations = {
     about: {
       title: "회사 소개",
       description:
-        "DT EVENT & TRAVEL 유한 책임 회사는 견고한 경험과 돌파적인 창의적 에너지를 결합한 기반 위에 구축된 이벤트 조직 단위입니다.",
+        "우리는 정교하고 효과적이며 의미 있는 이벤트를 실행하기 위한 포괄적인 솔루션을 제공합니다. 창의적이고 인상적인 경험을 통해 이야기를 들려드리겠습니다.",
       subDescription:
         "우리는 정교하고 효과적이며 의미 있는 이벤트를 실행하기 위한 포괄적인 솔루션을 제공합니다. 창의적이고 인상적인 경험을 통해 이야기를 들려드리겠습니다.",
       founded: "설립",
       successfulEvents: "성공적인 이벤트",
       learnMore: "회사에 대해 더 알아보기",
+    },
+    contact: {
+      title: "연락처",
+      description:
+        "무료 상담 및 견적을 위해 저희에게 연락해 주세요",
+      contactInfo: "연락 정보",
+      phone: "전화",
+      email: "이메일",
+      address: "주소",
+      workingHours: "근무 시간",
+      workingHoursContent: "월요일 - 토요일: 8:00 - 18:00",
+      sendMessage: "메시지 보내기",
+      name: "이름",
+      emailPlaceholder: "이메일을 입력하세요",
+      message: "메시지",
+      submit: "보내기",
+      quickResponse: "빠른 응답",
+      quickResponseDesc: "24시간 이내 응답을 약속합니다",
+      professional: "전문적",
+      fast: "빠름",
+      effective: "효과적",
     },
     footer: {
       description:

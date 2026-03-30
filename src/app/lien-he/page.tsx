@@ -7,31 +7,31 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export default function ContactPage() {
-  const { t } = useLanguage();
+  const { t, language, changeLanguage } = useLanguage();
 
   const contactInfo = [
     {
       icon: <FaPhone className="w-6 h-6" />,
-      title: "Điện thoại",
+      title: t("contact.phone"),
       content: t("footer.phone"),
       href: `tel:${t("footer.phone").replace("+84", "0").replace(/\s/g, "")}`,
     },
     {
       icon: <FaEnvelope className="w-6 h-6" />,
-      title: "Email",
+      title: t("contact.email"),
       content: t("footer.email"),
       href: `mailto:${t("footer.email")}`,
     },
     {
       icon: <FaMapMarkerAlt className="w-6 h-6" />,
-      title: "Địa chỉ",
+      title: t("contact.address"),
       content: t("footer.address"),
       href: "#",
     },
     {
       icon: <FaClock className="w-6 h-6" />,
-      title: "Giờ làm việc",
-      content: "Thứ 2 - Thứ 7: 8:00 - 18:00",
+      title: t("contact.workingHours"),
+      content: t("contact.workingHoursContent"),
       href: "#",
     },
   ];
@@ -48,10 +48,10 @@ export default function ContactPage() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-6 gold-text">
-            Liên Hệ
+            {t("contact.title")}
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Hãy liên hệ với chúng tôi để được tư vấn và báo giá miễn phí
+            {t("contact.description")}
           </p>
         </motion.div>
 
@@ -62,7 +62,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h2 className="text-2xl font-bold mb-8 gold-text">
-              Thông tin liên hệ
+              {t("contact.contactInfo")}
             </h2>
 
             <div className="space-y-6">
@@ -158,19 +158,19 @@ export default function ContactPage() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="bg-gray-900 border border-[#D4AF37]/20 rounded-lg p-8 text-center"
         >
-          <h2 className="text-2xl font-bold mb-4 gold-text">Phản hồi nhanh</h2>
-          <p className="text-gray-300 mb-6">
-            Chúng tôi cam kết phản hồi trong vòng 24 giờ làm việc
-          </p>
+          <h2 className="text-2xl font-bold mb-4 gold-text">
+            {t("contact.quickResponse")}
+          </h2>
+          <p className="text-gray-300 mb-6">{t("contact.quickResponseDesc")}</p>
           <div className="flex flex-wrap justify-center gap-4">
             <span className="px-4 py-2 bg-[#D4AF37]/20 text-[#D4AF37] rounded-full text-sm">
-              Chuyên nghiệp
+              {t("contact.professional")}
             </span>
             <span className="px-4 py-2 bg-[#D4AF37]/20 text-[#D4AF37] rounded-full text-sm">
-              Nhanh chóng
+              {t("contact.fast")}
             </span>
             <span className="px-4 py-2 bg-[#D4AF37]/20 text-[#D4AF37] rounded-full text-sm">
-              Hiệu quả
+              {t("contact.effective")}
             </span>
           </div>
         </motion.div>

@@ -15,64 +15,52 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export default function ServicesPage() {
-  const { t } = useLanguage();
+  const { t, language, changeLanguage } = useLanguage();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [selectedService, setSelectedService] = useState<any | null>(null);
 
   const services = [
     {
-      title: "Tổ chức sự kiện",
+      title: t("services.eventOrganization.title"),
       icon: <FaCalendarAlt className="w-8 h-8" />,
       color: "from-blue-500 to-blue-600",
-      description:
-        "Tổ chức trọn gói các sự kiện như khai trương, lễ khánh thành, hội nghị, hội thảo chuyên nghiệp.",
-      detail:
-        "Chúng tôi cung cấp dịch vụ tổ chức sự kiện trọn gói từ A-Z: lên ý tưởng, kịch bản, thiết kế, thi công và vận hành. Đảm bảo sự kiện diễn ra chuyên nghiệp, ấn tượng và đúng mục tiêu thương hiệu.",
+      description: t("services.eventOrganization.description"),
+      detail: t("services.eventOrganization.detail"),
     },
     {
-      title: "Biểu diễn nghệ thuật",
+      title: t("services.artPerformance.title"),
       icon: <FaUsers className="w-8 h-8" />,
       color: "from-green-500 to-green-600",
-      description:
-        "Cung cấp các tiết mục nghệ thuật đặc sắc: ca sĩ, dancer, MC, ban nhạc...",
-      detail:
-        "Đa dạng các loại hình biểu diễn nghệ thuật: ca sĩ nổi tiếng, nhóm nhảy, múa LED, band acoustic, DJ... giúp sự kiện của bạn trở nên sôi động và thu hút.",
+      description: t("services.artPerformance.description"),
+      detail: t("services.artPerformance.detail"),
     },
     {
-      title: "Truyền thông thương hiệu",
+      title: t("services.brandMedia.title"),
       icon: <FaBullhorn className="w-8 h-8" />,
       color: "from-purple-500 to-purple-600",
-      description:
-        "Xây dựng và triển khai chiến lược truyền thông giúp tăng nhận diện thương hiệu.",
-      detail:
-        "Chúng tôi hỗ trợ xây dựng chiến lược truyền thông tổng thể: online + offline, kết hợp social media, KOLs và quảng cáo để tăng độ phủ thương hiệu.",
+      description: t("services.brandMedia.description"),
+      detail: t("services.brandMedia.detail"),
     },
     {
-      title: "Cho thuê thiết bị sự kiện",
+      title: t("services.eventEquipment.title"),
       icon: <FaMicrophone className="w-8 h-8" />,
       color: "from-red-500 to-red-600",
-      description:
-        "Cung cấp âm thanh, ánh sáng, màn LED, sân khấu chuyên nghiệp.",
-      detail:
-        "Hệ thống thiết bị hiện đại: âm thanh line array, ánh sáng sân khấu, màn hình LED, backdrop... đáp ứng mọi quy mô sự kiện.",
+      description: t("services.eventEquipment.description"),
+      detail: t("services.eventEquipment.detail"),
     },
     {
-      title: "Ý tưởng & kịch bản",
+      title: t("services.conceptScript.title"),
       icon: <FaLightbulb className="w-8 h-8" />,
       color: "from-yellow-500 to-yellow-600",
-      description:
-        "Sáng tạo concept độc đáo, xây dựng kịch bản sự kiện chuyên nghiệp.",
-      detail:
-        "Đội ngũ sáng tạo giúp bạn xây dựng concept riêng biệt, tạo dấu ấn mạnh mẽ và khác biệt cho từng sự kiện.",
+      description: t("services.conceptScript.description"),
+      detail: t("services.conceptScript.detail"),
     },
     {
-      title: "Media & sản xuất",
+      title: t("services.mediaProduction.title"),
       icon: <FaPhotoVideo className="w-8 h-8" />,
       color: "from-pink-500 to-pink-600",
-      description:
-        "Quay phim, chụp ảnh, livestream và sản xuất video chuyên nghiệp.",
-      detail:
-        "Dịch vụ media trọn gói: quay phim, chụp ảnh, livestream, dựng video highlight giúp lan tỏa sự kiện mạnh mẽ.",
+      description: t("services.mediaProduction.description"),
+      detail: t("services.mediaProduction.detail"),
     },
   ];
 
@@ -87,10 +75,10 @@ export default function ServicesPage() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-6 gold-text">
-            Dịch vụ của chúng tôi
+            {t("services.title")}
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Giải pháp tổ chức sự kiện & truyền thông trọn gói chuyên nghiệp
+            {t("services.description")}
           </p>
         </motion.div>
 
