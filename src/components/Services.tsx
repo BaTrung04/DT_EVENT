@@ -3,9 +3,11 @@
 import { useLanguage } from "@/hooks/useLanguage";
 import { motion } from "framer-motion";
 import { FaCalendarAlt, FaUsers, FaBullhorn } from "react-icons/fa";
+import { useRouter } from "next/navigation";
 
 export default function Services() {
   const { t } = useLanguage();
+  const router = useRouter();
 
   const services = [
     {
@@ -35,17 +37,6 @@ export default function Services() {
       transition: {
         staggerChildren: 0.2,
         delayChildren: 0.3,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
       },
     },
   };
@@ -108,9 +99,10 @@ export default function Services() {
           viewport={{ once: true }}
         >
           <motion.button
-            className="gold-gradient text-black px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity duration-300"
+            className="gold-gradient text-black px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity duration-300 cursor-pointer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => router.push("/dich-vu")}
           >
             {t("services.learnMore")}
           </motion.button>
