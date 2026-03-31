@@ -3,6 +3,7 @@
 import { useLanguage } from "@/hooks/useLanguage";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function About() {
   const { t } = useLanguage();
@@ -29,37 +30,14 @@ export default function About() {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-32 h-32 gold-gradient rounded-full mx-auto mb-6 flex items-center justify-center">
-                    <span className="text-black font-bold text-4xl">DT</span>
-                  </div>
-                  <div className="text-white">
-                    <motion.div
-                      className="text-3xl font-bold gold-text mb-2"
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.6, delay: 0.3 }}
-                      viewport={{ once: true }}
-                    >
-                      DT
-                    </motion.div>
-                    <motion.div
-                      className="text-xl"
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.6, delay: 0.4 }}
-                      viewport={{ once: true }}
-                    >
-                      Entertainment
-                    </motion.div>
-                    <motion.div
-                      className="text-sm text-gray-400 mt-2"
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.6, delay: 0.5 }}
-                      viewport={{ once: true }}
-                    >
-                      Since 2026
-                    </motion.div>
+                  <div className="w-90 h-90 gold-gradient rounded-full flex items-center justify-center mb-1">
+                    <Image
+                      src="/logo.svg"
+                      alt="DT Entertainment"
+                      width={355}
+                      height={355}
+                      className="object-contain rounded-full border border-[#D4AF37]"
+                    />{" "}
                   </div>
                 </motion.div>
               </div>

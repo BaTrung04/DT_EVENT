@@ -78,7 +78,7 @@ export default function Header() {
             <Link href="/" className="flex items-center space-x-2">
               <Image
                 src="/logo.svg"
-                alt="DT Entertainment"
+                alt="DT EVENT & TRAVEL - Professional Event Organization Services Logo"
                 width={40}
                 height={40}
                 className="object-contain rounded-full border border-[#D4AF37]"

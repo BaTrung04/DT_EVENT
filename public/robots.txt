@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dtevent.com/sitemap.xml
+
+# Block common non-content paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /*?*utm*
+
+# Allow specific content
+Allow: /dich-vu
+Allow: /du-an
+Allow: /ve-chung-toi
+Allow: /lien-he
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
