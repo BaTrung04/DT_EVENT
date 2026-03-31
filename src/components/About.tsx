@@ -30,13 +30,13 @@ export default function About() {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-90 h-90 gold-gradient rounded-full flex items-center justify-center mb-1">
+                  <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-64 xl:h-64 gold-gradient rounded-full flex items-center justify-center mb-1">
                     <Image
                       src="/logo.svg"
-                      alt="DT Entertainment"
+                      alt="DT EVENT & TRAVEL - Professional Event Organization Services"
                       width={355}
                       height={355}
-                      className="object-contain rounded-full border border-[#D4AF37]"
+                      className="object-contain rounded-full border border-[#D4AF37] w-full h-full"
                     />{" "}
                   </div>
                 </motion.div>

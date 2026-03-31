@@ -168,8 +168,8 @@ export default function RootLayout({
             __html: JSON.stringify(serviceStructuredData),
           }}
         />
-        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/logo.svg" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
