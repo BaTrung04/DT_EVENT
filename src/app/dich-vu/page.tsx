@@ -15,7 +15,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export default function ServicesPage() {
-  const { t, language, changeLanguage } = useLanguage();
+  const { t } = useLanguage();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [selectedService, setSelectedService] = useState<any | null>(null);
 
@@ -136,9 +136,9 @@ export default function ServicesPage() {
 
               <button
                 onClick={() => setSelectedService(null)}
-                className="mt-6 px-6 py-2 bg-[#D4AF37] text-black rounded"
+                className="gold-gradient text-black px-6 py-2 mt-4 rounded-lg font-bold hover:opacity-90 transition-opacity duration-300 cursor-pointer"
               >
-                Đóng
+                {t("services.close")}
               </button>
             </motion.div>
           </motion.div>

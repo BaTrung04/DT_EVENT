@@ -65,6 +65,7 @@ export const translations = {
           "Dịch vụ media trọn gói: quay phim, chụp ảnh, livestream, dựng video highlight giúp lan tỏa sự kiện mạnh mẽ.",
       },
       learnMore: "Tìm hiểu thêm",
+      close: "Đóng",
     },
     projects: {
       title: "Dự án tiêu biểu",
@@ -104,6 +105,37 @@ export const translations = {
           "Ứng dụng màn hình ghép trong sự kiện, triển lãm và trung tâm thương mại",
         category: "Sự kiện",
       },
+      // Actual Projects
+      kiemToanNhaNuoc: {
+        title: "Kiểm toán nhà nước",
+        description: "Kiểm toán nhà nước đại hội VIII",
+        category: "Triển lãm",
+      },
+      hoiThaoVNPT: {
+        title: "Hội thảo VNPT",
+        description: "Đổi mới sáng tạo VNPT",
+        category: "Sự kiện",
+      },
+      vnptKinhTeDoThi: {
+        title: "VNPT Kinh tế đô thị",
+        description: "Mở khóa AI, dẫn nhịp thời sự số",
+        category: "Quảng bá",
+      },
+      duLichQuangNinh: {
+        title: "Du lịch Quảng Ninh đoàn VNPT",
+        description: "Du lịch Quảng Ninh đoàn VNPT",
+        category: "Du lịch",
+      },
+      vnptFamilyRun: {
+        title: "VNPT FAMILY RUN 2025",
+        description: "Giải chạy VNPT",
+        category: "Giải chạy",
+      },
+      duLichQuyNhon: {
+        title: "Du lịch Quy Nhơn",
+        description: "Du lịch Quy Nhơn",
+        category: "Du lịch",
+      },
       viewDetails: "Xem chi tiết",
       viewAllProjects: "Xem tất cả dự án",
     },
@@ -126,7 +158,7 @@ export const translations = {
       phone: "0333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2026 DT EVENT & TRAVEL. Mã số thuế: 0110922180. All rights reserved.",
+        "© 2026 DT EVENT & TRAVEL. Mã số thuế: MST. All rights reserved.",
     },
     floatingButtons: {
       call: "Gọi ngay",
@@ -222,6 +254,7 @@ export const translations = {
           "Comprehensive media services: filming, photography, livestreaming, video highlight production to help spread events powerfully.",
       },
       learnMore: "Learn More",
+      close: "Close",
     },
     projects: {
       title: "Featured Projects",
@@ -251,14 +284,45 @@ export const translations = {
       digitalSignage: {
         title: "Digital Signage",
         description:
-          "Create distinctive highlights for businesses with Digital Signage solutions",
+          "Creating distinctive highlights for businesses with Digital Signage solutions",
         category: "Technology",
       },
       ledScreens: {
-        title: "Event LED Screens",
+        title: "LED Screen Events",
         description:
           "Application of LED screens in events, exhibitions and shopping centers",
         category: "Events",
+      },
+      // Actual Projects
+      kiemToanNhaNuoc: {
+        title: "State Audit",
+        description: "State Audit Congress VIII",
+        category: "Exhibition",
+      },
+      hoiThaoVNPT: {
+        title: "VNPT Workshop",
+        description: "Innovation and Creativity VNPT",
+        category: "Event",
+      },
+      vnptKinhTeDoThi: {
+        title: "VNPT Urban Economics",
+        description: "Unlock AI, lead digital news",
+        category: "Promotion",
+      },
+      duLichQuangNinh: {
+        title: "VNPT Quang Ninh Tourism",
+        description: "VNPT Quang Ninh Tourism",
+        category: "Tourism",
+      },
+      vnptFamilyRun: {
+        title: "VNPT FAMILY RUN 2025",
+        description: "VNPT Running Race",
+        category: "Running Race",
+      },
+      duLichQuyNhon: {
+        title: "Quy Nhon Tourism",
+        description: "Quy Nhon Tourism",
+        category: "Tourism",
       },
       viewDetails: "View Details",
       viewAllProjects: "View All Projects",
@@ -283,7 +347,7 @@ export const translations = {
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        " 2026 DT EVENT & TRAVEL. Tax code: 0110922180. All rights reserved.",
+        " 2026 DT EVENT & TRAVEL. Tax code: MST. All rights reserved.",
     },
     contact: {
       title: "Contact",
@@ -378,6 +442,7 @@ export const translations = {
           "종합 미디어 서비스: 영화 촬영, 사진 촬영, 라이브 스트리밍, 비디오 하이라이트 제작으로 이벤트를 강력하게 확산.",
       },
       learnMore: "더 알아보기",
+      close: "닫기",
     },
     projects: {
       title: "주요 프로젝트",
@@ -412,6 +477,37 @@ export const translations = {
         title: "이벤트 LED 스크린",
         description: "이벤트, 전시회 및 쇼핑몰에서 LED 스크린 응용",
         category: "이벤트",
+      },
+      // Actual Projects
+      kiemToanNhaNuoc: {
+        title: "국가 감사",
+        description: "국가 감사 대회 VIII",
+        category: "전시회",
+      },
+      hoiThaoVNPT: {
+        title: "VNPT 워크샵",
+        description: "혁신과 창의성 VNPT",
+        category: "이벤트",
+      },
+      vnptKinhTeDoThi: {
+        title: "VNPT 도시 경제",
+        description: "AI 잠금 해제, 디지털 뉴스 리드",
+        category: "홍보",
+      },
+      duLichQuangNinh: {
+        title: "VNPT 광닝 관광",
+        description: "VNPT 광닝 관광",
+        category: "관광",
+      },
+      vnptFamilyRun: {
+        title: "VNPT FAMILY RUN 2025",
+        description: "VNPT 달리기 대회",
+        category: "달리기 대회",
+      },
+      duLichQuyNhon: {
+        title: "퀴논 관광",
+        description: "퀴논 관광",
+        category: "관광",
       },
       viewDetails: "상세 보기",
       viewAllProjects: "모든 프로젝트 보기",
@@ -457,7 +553,7 @@ export const translations = {
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2026 DT EVENT & TRAVEL. 세금 코드: 0110922180. 모든 권리 보유.",
+        "© 2026 DT EVENT & TRAVEL. 세금 코드: MST. 모든 권리 보유.",
     },
     floatingButtons: {
       call: "지금 전화",

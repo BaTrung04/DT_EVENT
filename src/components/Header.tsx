@@ -90,7 +90,7 @@ export default function Header() {
             </Link>
           </motion.div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             {[
               { key: "home", href: "/" },
               { key: "services", href: "/dich-vu" },
@@ -204,7 +204,7 @@ export default function Header() {
           </div>
 
           <motion.button
-            className="md:hidden text-white"
+            className="lg:hidden text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -238,7 +238,7 @@ export default function Header() {
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
-              className="md:hidden mt-4 pb-4 border-t border-[#D4AF37]/20 pt-4"
+              className="lg:hidden mt-4 pb-4 border-t border-[#D4AF37]/20 pt-4"
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
