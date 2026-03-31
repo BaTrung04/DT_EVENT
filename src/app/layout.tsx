@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | DT EVENT & TRAVEL",
   },
   description:
-    "DT EVENT & TRAVEL - Professional event organization, corporate events, conferences, product launches, exhibitions, and tourism services in Vietnam. Creative, professional, and impactful event solutions.",
+    "DT EVENT & TRAVEL - Professional event organization services in Vietnam. Corporate events, conferences, product launches, exhibitions & tourism. Creative solutions for memorable events.",
   keywords: [
     "event organization",
     "corporate events",
@@ -168,28 +168,14 @@ export default function RootLayout({
             __html: JSON.stringify(serviceStructuredData),
           }}
         />
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/logo.svg" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
         <meta name="theme-color" content="#D4AF37" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
