@@ -17,7 +17,7 @@ export default function AboutPage() {
     },
     {
       icon: <FaTrophy className="w-8 h-8" />,
-      value: "500+",
+      value: "100+",
       label: t("about.successfulEvents"),
     },
   ];

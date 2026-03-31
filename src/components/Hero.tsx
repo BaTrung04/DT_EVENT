@@ -3,6 +3,7 @@
 import { useLanguage } from "@/hooks/useLanguage";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   const { t } = useLanguage();
@@ -10,9 +11,14 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-black"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      style={{
+        backgroundImage: 'url("/images/hero.jpg")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-30">
         <motion.div
           className="absolute top-20 left-20 w-72 h-72 bg-[#D4AF37] rounded-full filter blur-3xl"
           animate={{
@@ -24,6 +30,13 @@ export default function Hero() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
+        />
+        <Image
+          src="/images/hero-overlay.png"
+          alt="Hero overlay"
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
+          width={1920}
+          height={1080}
         />
         <motion.div
           className="absolute bottom-20 right-20 w-96 h-96 bg-[#F4E4BC] rounded-full filter blur-3xl"

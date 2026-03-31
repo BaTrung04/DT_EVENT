@@ -68,7 +68,7 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-black text-white">
       <Header />
 
-      <main className="container mx-auto px-6 py-20">
+      <main className="container mx-auto px-6 py-20 mt-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
