@@ -3,6 +3,7 @@
 import { useLanguage } from "@/hooks/useLanguage";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const { t } = useLanguage();
@@ -58,20 +59,30 @@ export default function Projects() {
       className="py-20 bg-linear-to-b from-black to-[#0a0a0a]"
     >
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="gold-text">{t("projects.title")}</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             {t("projects.description")}
           </p>
-        </div>
+        </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div
+            <motion.div
               key={index}
               className="group bg-black border border-[#D4AF37]/20 rounded-xl overflow-hidden hover:border-[#D4AF37]/50 transition-all duration-300 hover:transform hover:scale-105"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              viewport={{ once: true }}
             >
               <div className="h-48 flex items-center justify-center">
                 <Image
@@ -116,18 +127,26 @@ export default function Projects() {
                   </svg>
                 </button>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <button
+        <motion.div
+          className="text-center mt-12"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <motion.button
             className="border-2 border-[#D4AF37] text-[#D4AF37] px-8 py-4 rounded-full font-bold hover:bg-[#D4AF37] hover:text-black transition-all duration-300 cursor-pointer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             onClick={() => router.push("/du-an")}
           >
             {t("projects.viewAllProjects")}
-          </button>
-        </div>
+          </motion.button>
+        </motion.div>
       </div>
     </section>
   );

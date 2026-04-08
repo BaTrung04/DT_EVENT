@@ -13,7 +13,7 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
       style={{
-        backgroundImage: 'url("/images/hero.jpg")',
+        backgroundImage: 'url("/images/hero6.jpg")',
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

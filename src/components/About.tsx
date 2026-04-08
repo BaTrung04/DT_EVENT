@@ -81,7 +81,7 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.5 }}
               viewport={{ once: true }}
             >
-              <motion.div
+              {/* <motion.div
                 className="text-center"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -90,7 +90,7 @@ export default function About() {
               >
                 <div className="text-3xl font-bold gold-text mb-2">2026</div>
                 <div className="text-gray-400">{t("about.founded")}</div>
-              </motion.div>
+              </motion.div> */}
               <motion.div
                 className="text-center"
                 initial={{ opacity: 0, scale: 0.8 }}

@@ -51,8 +51,8 @@ export default function Home() {
     <div className="min-h-screen bg-black">
       <Header />
       <Hero />
-      <Services />
       <Projects />
+      <Services />
       <About />
       <Footer />
     </div>
