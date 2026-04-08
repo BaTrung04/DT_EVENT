@@ -114,7 +114,12 @@ export const translations = {
       hoiThaoVNPT: {
         title: "Hội thảo VNPT",
         description: "Đổi mới sáng tạo VNPT",
-        category: "Triển Lãm",
+        category: "Triển Lãm",
+      },
+      hoiCho: {
+        title: "Làng giáng sinh",
+        description: "Làng giáng sinh Thanh Xuân",
+        category: "Hội chợ",
       },
       vnptKinhTeDoThi: {
         title: "VNPT Kinh tế đô thị",
@@ -304,6 +309,11 @@ export const translations = {
         description: "Innovation and Creativity VNPT",
         category: "Exhibition",
       },
+      hoiCho: {
+        title: "Christmas Village",
+        description: "Christmas Village Thanh Xuan",
+        category: "Christmas Market",
+      },
       vnptKinhTeDoThi: {
         title: "VNPT Urban Economics",
         description: "Unlock AI, lead digital news",
@@ -488,6 +498,11 @@ export const translations = {
         title: "VNPT 워크샵",
         description: "혁신과 창의성 VNPT",
         category: "전시회",
+      },
+      hoiCho: {
+        title: "크리스마스 빌리지",
+        description: "탕쑤안 크리스마스 빌리지",
+        category: "축제",
       },
       vnptKinhTeDoThi: {
         title: "VNPT 도시 경제",

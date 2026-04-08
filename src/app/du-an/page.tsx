@@ -205,6 +205,76 @@ export default function ProjectsPage() {
       dsc: "Hội thảo VNPT",
     },
     {
+      titleKey: "projects.hoiCho.title",
+      descriptionKey: "projects.hoiCho.description",
+      categoryKey: "projects.hoiCho.category",
+      image: "/images/hoicho.jpg",
+      date: "13/01/2024",
+      dsc: (
+        <div className="text-gray-300 leading-8">
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+            Lễ hội Làng Giáng Sinh phố đi bộ Nguyễn Xiển – điểm check-in hot
+            nhất Hà Nội
+          </h1>
+
+          <p className="mb-4 text-lg text-gray-400">
+            Lễ hội Làng Giáng Sinh tại phố đi bộ Nguyễn Xiển (Thanh Xuân, Hà
+            Nội) đang trở thành địa điểm “gây sốt” mùa Noel năm nay. Với không
+            gian trang trí rực rỡ, lung linh ánh đèn, đây là nơi lý tưởng để
+            chụp ảnh và tận hưởng không khí Giáng Sinh.
+          </p>
+          <div className="h- flex items-center justify-center">
+            <Image
+              src={"/images/hoicho2.jpg"}
+              alt={t("projects.hoiCho.title")}
+              className="w-full h-full object-cover"
+              width={500}
+              height={500}
+            />
+          </div>
+          <h2 className="text-2xl font-semibold text-white mt-6 mb-2 border-l-4 border-[#D4AF37] pl-3">
+            Không gian Noel cực đẹp tại Nguyễn Xiển
+          </h2>
+
+          <p className="mb-4">
+            Lễ hội tái hiện một “làng Giáng Sinh” đầy màu sắc với cây thông lớn,
+            ánh sáng lung linh và nhiều tiểu cảnh độc đáo. Đây là một trong
+            những địa điểm chụp ảnh Noel đẹp nhất tại Thanh Xuân, Hà Nội.
+          </p>
+
+          <h2 className="text-2xl font-semibold text-white mt-6 mb-2 border-l-4 border-[#D4AF37] pl-3">
+            Trải nghiệm không khí lễ hội cuối năm
+          </h2>
+
+          <p className="mb-4">
+            Không chỉ là nơi check-in, phố đi bộ Nguyễn Xiển còn mang đến nhiều
+            hoạt động vui chơi, giải trí hấp dẫn, thu hút đông đảo giới trẻ và
+            gia đình đến tham quan, trải nghiệm.
+          </p>
+
+          <h2 className="text-2xl font-semibold text-white mt-6 mb-2 border-l-4 border-[#D4AF37] pl-3">
+            Địa điểm hot mùa Giáng Sinh 2023
+          </h2>
+
+          <p className="mb-6">
+            Nếu bạn đang tìm kiếm địa điểm chụp ảnh đẹp hay muốn hòa mình vào
+            không khí lễ hội Noel tại Hà Nội, Lễ hội Làng Giáng Sinh Nguyễn Xiển
+            chắc chắn là lựa chọn không thể bỏ qua.
+          </p>
+
+          {/* Keywords */}
+          <div className="bg-gray-800/60 border border-gray-700 rounded-lg p-4 text-sm">
+            <strong className="text-[#D4AF37]">Keywords:</strong>
+            <p className="mt-2 text-gray-400">
+              Lễ hội Giáng Sinh 2023 Nguyễn Xiển, chụp ảnh Noel đẹp Hà Nội, địa
+              điểm chụp ảnh Giáng Sinh, phố đi bộ Nguyễn Xiển, sự kiện Giáng
+              Sinh Hà Nội, lễ hội cuối năm Hà Nội
+            </p>
+          </div>
+        </div>
+      ),
+    },
+    {
       titleKey: "projects.vnptKinhTeDoThi.title",
       descriptionKey: "projects.vnptKinhTeDoThi.description",
       categoryKey: "projects.vnptKinhTeDoThi.category",

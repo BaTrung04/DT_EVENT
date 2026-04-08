@@ -24,6 +24,14 @@ export default function Projects() {
       date: "08/05/2025",
     },
     {
+      titleKey: "projects.hoiCho.title",
+      descriptionKey: "projects.hoiCho.description",
+      categoryKey: "projects.hoiCho.category",
+      image: "/images/hoicho.jpg",
+      date: "13/01/2024",
+      dsc: "Hội Chợ",
+    },
+    {
       titleKey: "projects.vnptKinhTeDoThi.title",
       descriptionKey: "projects.vnptKinhTeDoThi.description",
       categoryKey: "projects.vnptKinhTeDoThi.category",
@@ -44,13 +52,13 @@ export default function Projects() {
       image: "/images/vnpt-family-run.png",
       date: "21/06/2025",
     },
-    {
-      titleKey: "projects.duLichQuyNhon.title",
-      descriptionKey: "projects.duLichQuyNhon.description",
-      categoryKey: "projects.duLichQuyNhon.category",
-      image: "/images/du-lich-quy-nhon.webp",
-      date: "08/08/2025",
-    },
+    // {
+    //   titleKey: "projects.duLichQuyNhon.title",
+    //   descriptionKey: "projects.duLichQuyNhon.description",
+    //   categoryKey: "projects.duLichQuyNhon.category",
+    //   image: "/images/du-lich-quy-nhon.webp",
+    //   date: "08/08/2025",
+    // },
   ];
 
   return (
