@@ -18,7 +18,7 @@ export default function Hero() {
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-0 opacity-30">
+      <div className="absolute inset-0 bg-black/20 backdrop-blur-xs z-0">
         <motion.div
           className="absolute top-20 left-20 w-72 h-72 bg-[#D4AF37] rounded-full filter blur-3xl"
           animate={{
