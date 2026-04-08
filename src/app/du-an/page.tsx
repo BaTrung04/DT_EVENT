@@ -1,12 +1,97 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
+import { useState } from "react";
 import { useLanguage } from "@/hooks/useLanguage";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 
+const ProjectModal = ({
+  project,
+  onClose,
+}: {
+  project: {
+    titleKey: string;
+    categoryKey: string;
+    date: string;
+    descriptionKey: string;
+    image: string;
+    dsc: any;
+  };
+  onClose: () => void;
+}) => {
+  const { t } = useLanguage();
+
+  return (
+    <div
+      className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-6"
+      onClick={onClose}
+    >
+      <div
+        className="bg-gray-900 max-w-4xl w-full rounded-lg p-8 border border-[#D4AF37]/30 max-h-[90vh] "
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="">
+          <div className="flex justify-between items-start mb-6">
+            <h2 className="text-2xl font-bold text-white">
+              {t(project.titleKey)}
+            </h2>
+            <button
+              onClick={onClose}
+              className="text-gray-400 hover:text-white transition-colors duration-300"
+            >
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+          <div className="space-y-6 overflow-y-auto max-h-[70vh] laij-thanh-scroll">
+            <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden">
+              <Image
+                src={project.image}
+                alt={t(project.titleKey)}
+                className="w-full h-full object-cover"
+                width={800}
+                height={450}
+              />
+            </div>
+
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <span className="text-[#D4AF37] text-sm font-semibold">
+                  {t(project.categoryKey)}
+                </span>
+                <p className="text-gray-500 text-sm mt-1">{project.date}</p>
+              </div>
+            </div>
+
+            <div>
+              <p className="text-gray-300 leading-relaxed">
+                {t(project.descriptionKey)}
+              </p>
+            </div>
+            <div className="mt-6 text-white">{project.dsc}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default function ProjectsPage() {
   const { t } = useLanguage();
+  const [selectedProject, setSelectedProject] = useState<any | null>(null);
 
   const projects = [
     {
@@ -15,6 +100,101 @@ export default function ProjectsPage() {
       categoryKey: "projects.kiemToanNhaNuoc.category",
       image: "/images/kiem-toan-nha-nuoc.jpg",
       date: "24/06/2025",
+      dsc: (
+        <main className="max-w-7xl mx-auto">
+          {/* Title */}
+          <h1 className="text-2xl md:text-3xl font-bold mb-3">
+            Đại hội đại biểu Đảng bộ Kiểm toán nhà nước lần thứ VIII, nhiệm kỳ
+            2025 - 2030
+          </h1>
+
+          {/* Meta */}
+          <div className="text-sm text-gray-500 mb-4">Chính trị • 2025</div>
+
+          {/* Intro */}
+          <p className="font-semibold mb-4">
+            Đại hội có sự tham dự của Chủ tịch Quốc hội Trần Thanh Mẫn cùng
+            nhiều lãnh đạo cấp cao và 177 đại biểu.
+          </p>
+
+          {/* Content */}
+          <div className="leading-7 text-white">
+            <p>
+              Đại hội đại biểu Đảng bộ Kiểm toán nhà nước lần thứ VIII diễn ra
+              trong bối cảnh quan trọng, đánh dấu 30 năm phát triển của ngành.
+            </p>
+
+            <p>
+              Nhiệm kỳ 2020–2025, Đảng bộ đã hoàn thành xuất sắc nhiệm vụ, khẳng
+              định vai trò trong hệ thống chính trị.
+            </p>
+
+            <h2 className="text-xl font-semibold mt-6">
+              Xây dựng Đảng vững mạnh
+            </h2>
+
+            <p>
+              Công tác xây dựng Đảng được đổi mới toàn diện, tăng cường kiểm
+              tra, giám sát và nâng cao năng lực lãnh đạo.
+            </p>
+
+            <p>
+              Đã tổ chức 35 hội nghị với gần 22.000 lượt cán bộ, đảng viên tham
+              dự.
+            </p>
+
+            <p>
+              Nhiều tập thể, cá nhân được khen thưởng trong học tập và làm theo
+              tư tưởng Hồ Chí Minh.
+            </p>
+
+            <h2 className="text-xl font-semibold mt-6">
+              Nhiệm vụ chính trị nổi bật
+            </h2>
+
+            <p>
+              Ban hành 4 nghị quyết chiến lược nhằm phát triển ngành đến năm
+              2030.
+            </p>
+
+            <p>
+              Tinh gọn bộ máy, nâng cao chất lượng nhân lực, đẩy mạnh chuyển đổi
+              số.
+            </p>
+
+            <p>
+              Kiến nghị xử lý tài chính hơn 281.000 tỷ đồng và sửa đổi hơn 1.000
+              văn bản.
+            </p>
+
+            <p>Tỷ lệ thực hiện kiến nghị đạt 81%, cao hơn nhiệm kỳ trước.</p>
+
+            <h2 className="text-xl font-semibold mt-6">
+              Định hướng nhiệm kỳ 2025–2030
+            </h2>
+
+            <p>
+              Phương châm: “Kỷ cương - liêm chính - chuyên nghiệp - chất lượng -
+              hội nhập”.
+            </p>
+
+            <p>
+              Tập trung nâng cao chất lượng kiểm toán, tăng cường phòng chống
+              tham nhũng.
+            </p>
+
+            <p>
+              Đẩy mạnh ứng dụng công nghệ, hoàn thiện pháp lý và phát triển
+              nguồn nhân lực.
+            </p>
+
+            <p className="font-semibold">
+              Mục tiêu: Xây dựng Kiểm toán nhà nước vững mạnh, khẳng định vai
+              thế trong quản lý tài chính công.
+            </p>
+          </div>
+        </main>
+      ),
     },
     {
       titleKey: "projects.hoiThaoVNPT.title",
@@ -22,6 +202,7 @@ export default function ProjectsPage() {
       categoryKey: "projects.hoiThaoVNPT.category",
       image: "/images/su-kien-vnpt.jpg",
       date: "08/05/2025",
+      dsc: "Hội thảo VNPT",
     },
     {
       titleKey: "projects.vnptKinhTeDoThi.title",
@@ -29,6 +210,7 @@ export default function ProjectsPage() {
       categoryKey: "projects.vnptKinhTeDoThi.category",
       image: "/images/vnpt-kinh-te-do-thi.jpg",
       date: "16/05/2025",
+      dsc: "VNPT Kinh Tế Đô Thị",
     },
     {
       titleKey: "projects.duLichQuangNinh.title",
@@ -36,6 +218,7 @@ export default function ProjectsPage() {
       categoryKey: "projects.duLichQuangNinh.category",
       image: "/images/du-lich-quang-ninh.png",
       date: "08/07/2025",
+      dsc: "Du lịch Quảng Ninh",
     },
     {
       titleKey: "projects.vnptFamilyRun.title",
@@ -43,6 +226,7 @@ export default function ProjectsPage() {
       categoryKey: "projects.vnptFamilyRun.category",
       image: "/images/vnpt-family-run.png",
       date: "21/06/2025",
+      dsc: "VNPT Family Run",
     },
     {
       titleKey: "projects.duLichQuyNhon.title",
@@ -50,6 +234,7 @@ export default function ProjectsPage() {
       categoryKey: "projects.duLichQuyNhon.category",
       image: "/images/du-lich-quy-nhon.webp",
       date: "08/08/2025",
+      dsc: "Du lịch Quy Nhơn",
     },
   ];
   return (
@@ -74,7 +259,8 @@ export default function ProjectsPage() {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="group bg-black border border-[#D4AF37]/20 rounded-xl overflow-hidden hover:border-[#D4AF37]/50 transition-all duration-300 hover:transform hover:scale-105"
+                className="group bg-black border border-[#D4AF37]/20 rounded-xl overflow-hidden hover:border-[#D4AF37]/50 transition-all duration-300 hover:transform hover:scale-105 cursor-pointer"
+                onClick={() => setSelectedProject(project)}
               >
                 <div className="h-48 flex items-center justify-center">
                   <Image
@@ -128,6 +314,14 @@ export default function ProjectsPage() {
       </section>
 
       <Footer />
+
+      {/* Project Details Modal */}
+      {selectedProject && (
+        <ProjectModal
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
+        />
+      )}
     </div>
   );
 }

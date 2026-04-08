@@ -10,11 +10,11 @@ export default function AboutPage() {
   const { t } = useLanguage();
 
   const stats = [
-    {
-      icon: <FaBuilding className="w-8 h-8" />,
-      value: "2026",
-      label: t("about.founded"),
-    },
+    // {
+    //   icon: <FaBuilding className="w-8 h-8" />,
+    //   value: "2026",
+    //   label: t("about.founded"),
+    // },
     {
       icon: <FaTrophy className="w-8 h-8" />,
       value: "100+",
@@ -51,7 +51,7 @@ export default function AboutPage() {
             {t("about.subDescription")}
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid md:grid-cols-1 gap-8 mb-12">
             {stats.map((stat, index) => (
               <motion.div
                 key={index}

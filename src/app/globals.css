@@ -52,3 +52,30 @@ body {
   isolation: isolate !important;
   transform: translateZ(0) !important;
 }
+
+
+/* Scrollbar tổng */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track (nền) */
+::-webkit-scrollbar-track {
+  background: #101828; /* nền đen */
+}
+
+/* Thanh kéo */
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #444 #101828;
+}

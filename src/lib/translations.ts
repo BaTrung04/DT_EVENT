@@ -109,12 +109,12 @@ export const translations = {
       kiemToanNhaNuoc: {
         title: "Kiểm toán nhà nước",
         description: "Kiểm toán nhà nước đại hội VIII",
-        category: "Triển lãm",
+        category: "Hội Nghị",
       },
       hoiThaoVNPT: {
         title: "Hội thảo VNPT",
         description: "Đổi mới sáng tạo VNPT",
-        category: "Sự kiện",
+        category: "Triển Lãm",
       },
       vnptKinhTeDoThi: {
         title: "VNPT Kinh tế đô thị",
@@ -158,7 +158,7 @@ export const translations = {
       phone: "0333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2026 DT EVENT & TRAVEL. Mã số thuế: MST. All rights reserved.",
+        "© 2026 DT EVENT & TRAVEL. Mã số thuế: 2301395323. All rights reserved.",
     },
     floatingButtons: {
       call: "Gọi ngay",
@@ -297,12 +297,12 @@ export const translations = {
       kiemToanNhaNuoc: {
         title: "State Audit",
         description: "State Audit Congress VIII",
-        category: "Exhibition",
+        category: "Conference",
       },
       hoiThaoVNPT: {
         title: "VNPT Workshop",
         description: "Innovation and Creativity VNPT",
-        category: "Event",
+        category: "Exhibition",
       },
       vnptKinhTeDoThi: {
         title: "VNPT Urban Economics",
@@ -347,7 +347,7 @@ export const translations = {
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        " 2026 DT EVENT & TRAVEL. Tax code: MST. All rights reserved.",
+        " 2026 DT EVENT & TRAVEL. Tax code: 2301395323. All rights reserved.",
     },
     contact: {
       title: "Contact",
@@ -482,12 +482,12 @@ export const translations = {
       kiemToanNhaNuoc: {
         title: "국가 감사",
         description: "국가 감사 대회 VIII",
-        category: "전시회",
+        category: "회의",
       },
       hoiThaoVNPT: {
         title: "VNPT 워크샵",
         description: "혁신과 창의성 VNPT",
-        category: "이벤트",
+        category: "전시회",
       },
       vnptKinhTeDoThi: {
         title: "VNPT 도시 경제",
@@ -553,7 +553,7 @@ export const translations = {
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2026 DT EVENT & TRAVEL. 세금 코드: MST. 모든 권리 보유.",
+        "© 2026 DT EVENT & TRAVEL. 세금 코드: 2301395323. 모든 권리 보유.",
     },
     floatingButtons: {
       call: "지금 전화",
