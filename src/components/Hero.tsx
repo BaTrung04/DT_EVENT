@@ -18,9 +18,9 @@ export default function Hero() {
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-0 bg-black/20 backdrop-blur-xs z-0">
+      <div className="absolute inset-0 bg-black/20 backdrop-blur-sm z-0">
         <motion.div
-          className="absolute top-20 left-20 w-72 h-72 bg-[#D4AF37] rounded-full filter blur-3xl"
+          className="absolute top-20 left-20 w-72 h-72 bg-[#D4AF37] rounded-full filter blur-3xl opacity-50"
           animate={{
             x: [0, 50, 0],
             y: [0, 30, 0],
@@ -39,7 +39,7 @@ export default function Hero() {
           height={1080}
         />
         <motion.div
-          className="absolute bottom-20 right-20 w-96 h-96 bg-[#F4E4BC] rounded-full filter blur-3xl"
+          className="absolute bottom-20 right-20 w-96 h-96 bg-[#F4E4BC] rounded-full filter blur-3xl opacity-50"
           animate={{
             x: [0, -30, 0],
             y: [0, 50, 0],
@@ -60,14 +60,14 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <motion.span
+            {/* <motion.span
               className="text-white block"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
               {t("hero.title")}
-            </motion.span>
+            </motion.span> */}
 
             <motion.span
               className="gold-text"
@@ -80,7 +80,7 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p
-            className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed"
+            className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
@@ -89,7 +89,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.p
-            className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto"
+            className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9 }}

@@ -25,6 +25,12 @@ export default function ContactPage() {
     {
       icon: <FaMapMarkerAlt className="w-6 h-6" />,
       title: t("contact.address"),
+      content: t("footer.address2"),
+      href: "#",
+    },
+    {
+      icon: <FaMapMarkerAlt className="w-6 h-6" />,
+      title: t("contact.address2"),
       content: t("footer.address"),
       href: "#",
     },
@@ -152,7 +158,7 @@ export default function ContactPage() {
           </motion.div> */}
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -173,7 +179,7 @@ export default function ContactPage() {
               {t("contact.effective")}
             </span>
           </div>
-        </motion.div>
+        </motion.div> */}
       </main>
 
       <Footer />

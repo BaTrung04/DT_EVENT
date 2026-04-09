@@ -17,14 +17,14 @@ export default function Footer() {
               <div className="w-10 h-10 gold-gradient rounded-full flex items-center justify-center">
                 <Image
                   src="/logo.svg"
-                  alt="DT Entertainment"
+                  alt="DT Event"
                   width={40}
                   height={40}
                   className="object-contain rounded-full border border-[#D4AF37]"
                 />{" "}
               </div>
               <span className="text-white text-xl font-bold gold-text">
-                DT Entertainment
+                DT Event
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -105,7 +105,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <svg
-                  className="w-5 h-5 text-[#D4AF37]"
+                  className="w-7 h-7 text-[#D4AF37]"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

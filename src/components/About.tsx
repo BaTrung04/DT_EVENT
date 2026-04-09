@@ -12,9 +12,9 @@ export default function About() {
   return (
     <section id="about" className="py-20 bg-black">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-12 gap-6 items-center">
           <motion.div
-            className="relative"
+            className="relative col-span-1"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -30,12 +30,12 @@ export default function About() {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-64 xl:h-64 gold-gradient rounded-full flex items-center justify-center mb-1">
+                  <div className="w-10 h-10 md:w-15 md:h-15 lg:w-20 lg:h-20 xl:w-20 xl:h-20 gold-gradient rounded-full flex items-center justify-center mb-1">
                     <Image
                       src="/logo.svg"
                       alt="DT EVENT & TRAVEL - Professional Event Organization Services"
-                      width={355}
-                      height={355}
+                      width={30}
+                      height={30}
                       className="object-contain rounded-full border border-[#D4AF37] w-full h-full"
                     />{" "}
                   </div>
@@ -45,6 +45,7 @@ export default function About() {
           </motion.div>
 
           <motion.div
+            className="col-span-2"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -81,16 +82,16 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.5 }}
               viewport={{ once: true }}
             >
-              {/* <motion.div
+              <motion.div
                 className="text-center"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
                 viewport={{ once: true }}
               >
-                <div className="text-3xl font-bold gold-text mb-2">2026</div>
-                <div className="text-gray-400">{t("about.founded")}</div>
-              </motion.div> */}
+                <div className="text-3xl font-bold gold-text mb-2">1000+</div>
+                <div className="text-gray-400">{t("about.customers")}</div>
+              </motion.div>
               <motion.div
                 className="text-center"
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -106,7 +107,7 @@ export default function About() {
             </motion.div>
 
             <motion.button
-              className="gold-gradient text-black px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity duration-300 cursor-pointer"
+              className="gold-gradient  text-black px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity duration-300 cursor-pointer"
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.8 }}

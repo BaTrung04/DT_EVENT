@@ -85,7 +85,7 @@ export default function Header() {
               />
 
               <span className="text-white text-xl font-bold gold-text">
-                DT Entertainment
+                DT Event
               </span>
             </Link>
           </motion.div>
@@ -93,8 +93,8 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-8">
             {[
               { key: "home", href: "/" },
-              { key: "services", href: "/dich-vu" },
               { key: "projects", href: "/du-an" },
+              { key: "services", href: "/dich-vu" },
               { key: "about", href: "/ve-chung-toi" },
               { key: "contact", href: "/lien-he" },
             ].map((item, index) => (

@@ -10,9 +10,9 @@ export const translations = {
     },
     hero: {
       title: "CÔNG TY TRÁCH NHIỆM HỮU HẠN",
-      subtitle: "DT EVENT & TRAVEL",
+      subtitle: "DT EVENT ",
       description:
-        "Chính khát vọng chinh phục những giới hạn mới đã thôi thúc chúng tôi thành lập DT EVENT & TRAVEL vào năm 2026 – thương hiệu chuyên sâu hoạt động trong lĩnh vực Tổ chức Sự kiện, Truyền thông Thương hiệu và du lịch.",
+        "Chính khát vọng chinh phục những giới hạn mới đã thôi thúc chúng tôi thành lập DT EVENT – thương hiệu chuyên sâu hoạt động trong lĩnh vực Tổ chức Sự kiện, Truyền thông Thương hiệu và du lịch.",
       subDescription:
         "Đây không phải là sự khởi đầu, mà là bước tiếp nối chiến lược.",
       exploreServices: "Khám phá dịch vụ",
@@ -37,7 +37,7 @@ export const translations = {
           "Đa dạng các loại hình biểu diễn nghệ thuật: ca sĩ nổi tiếng, nhóm nhảy, múa LED, band acoustic, DJ... giúp sự kiện của bạn trở nên sôi động và thu hút.",
       },
       brandMedia: {
-        title: "Truyền thông Thương hiệu",
+        title: "Thiết kế bộ nhận diện thương hiệu",
         description:
           "Xây dựng chiến lược truyền thông hiệu quả để nâng cao nhận diện thương hiệu",
         detail:
@@ -51,14 +51,14 @@ export const translations = {
           "Hệ thống thiết bị hiện đại: âm thanh line array, ánh sáng sân khấu, màn hình LED, backdrop... đáp ứng mọi quy mô sự kiện.",
       },
       conceptScript: {
-        title: "Ý tưởng & kịch bản",
+        title: "Du lịch & trải nghiệm văn hóa",
         description:
-          "Sáng tạo concept độc đáo, xây dựng kịch bản sự kiện chuyên nghiệp",
+          "Thiết kế các chương trình du lịch đặc sắc, trải nghiệm văn hóa độc đáo",
         detail:
-          "Đội ngũ sáng tạo giúp bạn xây dựng concept riêng biệt, tạo dấu ấn mạnh mẽ và khác biệt cho từng sự kiện.",
+          "Chúng tôi thiết kế các chương trình du lịch đặc sắc, trải nghiệm văn hóa độc đáo, mang lại những kỷ niệm đáng nhớ cho khách hàng.",
       },
       mediaProduction: {
-        title: "Media & sản xuất",
+        title: "Media & truyền thông thương hiệu",
         description:
           "Quay phim, chụp ảnh, livestream và sản xuất video chuyên nghiệp",
         detail:
@@ -68,7 +68,7 @@ export const translations = {
       close: "Đóng",
     },
     projects: {
-      title: "Dự án tiêu biểu",
+      title: "Dự án",
       description:
         "Hãy để chúng tôi cùng bạn kể câu chuyện bằng những trải nghiệm sáng tạo và đầy dấu ấn",
       eventAnniversary: {
@@ -147,23 +147,25 @@ export const translations = {
     about: {
       title: "Về chúng tôi",
       description:
-        "Công ty trách nhiệm hữu hạn DT EVENT & TRAVEL là đơn vị tổ chức sự kiện được xây dựng trên nền tảng kết hợp giữa kinh nghiệm vững chắc và năng lượng sáng tạo đột phá.",
+        "DT EVENT  là đơn vị tổ chức sự kiện được xây dựng trên nền tảng kết hợp giữa kinh nghiệm vững chắc và năng lượng sáng tạo đột phá.",
       subDescription:
         "Chúng tôi cung cấp các giải pháp toàn diện để thực thi những sự kiện chỉn chu, hiệu quả và giàu ý nghĩa. Hãy để chúng tôi cùng bạn kể câu chuyện bằng những trải nghiệm sáng tạo và đầy dấu ấn.",
       founded: "Năm thành lập",
+      customers:"Khách hàng hài lòng",
       successfulEvents: "Sự kiện thành công",
       learnMore: "Tìm hiểu thêm về chúng tôi",
     },
     footer: {
       description:
-        "Công ty trách nhiệm hữu hạn DT EVENT & TRAVEL - Đơn vị tổ chức sự kiện chuyên nghiệp, sáng tạo và đẳng cấp.",
+        "DT EVENT - Đơn vị tổ chức sự kiện chuyên nghiệp, sáng tạo và đẳng cấp.",
       quickLinks: "Liên kết nhanh",
       contact: "Liên hệ",
       address: "Số 22, Thôn Phương Triện, Xã Đại Lai, Tỉnh Bắc Ninh, Việt Nam",
+      address2: "Hà Nội, Việt Nam",
       phone: "0333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2026 DT EVENT & TRAVEL. Mã số thuế: 2301395323. All rights reserved.",
+        "© DT EVENT . Mã số thuế: 2301395323. All rights reserved.",
     },
     floatingButtons: {
       call: "Gọi ngay",
@@ -179,8 +181,9 @@ export const translations = {
       phone: "Điện thoại",
       email: "Email",
       address: "Địa chỉ",
+      address2: "Trụ sở",
       workingHours: "Giờ làm việc",
-      workingHoursContent: "Thứ 2 - Thứ 7: 8:00 - 18:00",
+      workingHoursContent: "Thứ 2 - Chủ nhật: 8:00 - 18:00",
       sendMessage: "Gửi tin nhắn",
       name: "Họ và tên",
       emailPlaceholder: "Email của bạn",
@@ -203,10 +206,10 @@ export const translations = {
       contactNow: "Contact Now",
     },
     hero: {
-      title: "DT EVENT & TRAVEL",
+      title: "DT EVENT ",
       subtitle: "LIMITED LIABILITY COMPANY",
       description:
-        "The aspiration to conquer new limits motivated us to establish DT EVENT & TRAVEL in 2026 - a brand specializing in Event Organization, Brand Media, and Tourism.",
+        "The aspiration to conquer new limits motivated us to establish DT EVENT - a brand specializing in Event Organization, Brand Media, and Tourism.",
       subDescription:
         "This is not the beginning, but the continuation of the strategy.",
       exploreServices: "Explore Services",
@@ -231,7 +234,7 @@ export const translations = {
           "Diverse artistic performance types: famous singers, dance groups, LED dancers, acoustic bands, DJs... making your events more vibrant and attractive.",
       },
       brandMedia: {
-        title: "Brand Media",
+        title: "Brand Identity Design",
         description:
           "Building effective communication strategies to enhance brand recognition",
         detail:
@@ -247,12 +250,12 @@ export const translations = {
       conceptScript: {
         title: "Concepts & Scripts",
         description:
-          "Creating unique concepts, professional event scriptwriting",
+          "Designing unique concepts, professional event scriptwriting",
         detail:
-          "Our creative team helps you build distinctive concepts, creating strong and different impressions for each event.",
+          "We design unique concepts, professional event scriptwriting, creating memorable and impactful experiences for your brand.",
       },
       mediaProduction: {
-        title: "Media & Production",
+        title: "Media & Brand Communication",
         description:
           "Filming, photography, livestreaming and professional video production",
         detail:
@@ -262,7 +265,7 @@ export const translations = {
       close: "Close",
     },
     projects: {
-      title: "Featured Projects",
+      title: "Projects",
       description:
         "Let us help you tell stories through creative and impressive experiences",
       eventAnniversary: {
@@ -340,24 +343,26 @@ export const translations = {
     about: {
       title: "About Us",
       description:
-        "DT EVENT & TRAVEL Limited Liability Company is an event organization unit built on the foundation of combining solid experience and breakthrough creative energy.",
+        "DT EVENT is an event organization unit built on the foundation of combining solid experience and breakthrough creative energy.",
       subDescription:
         "We provide comprehensive solutions to execute sophisticated, effective and meaningful events. Let us help you tell stories through creative and impressive experiences.",
       founded: "Founded",
+      customers:"Happy Customers",
       successfulEvents: "Successful Events",
       learnMore: "Learn More About Us",
     },
     footer: {
       description:
-        "DT EVENT & TRAVEL Limited Liability Company - Professional, creative and classy event organization unit.",
+        "DT EVENT - Professional, creative and classy event organization unit.",
       quickLinks: "Quick Links",
       contact: "Contact",
       address:
         "No. 22, Phuong Tien Village, Dai Lai Commune, Bac Ninh Province, Vietnam",
+      address2: "Hanoi, Vietnam",
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        " 2026 DT EVENT & TRAVEL. Tax code: 2301395323. All rights reserved.",
+        "DT EVENT . Tax code: 2301395323. All rights reserved.",
     },
     contact: {
       title: "Contact",
@@ -367,8 +372,9 @@ export const translations = {
       phone: "Phone",
       email: "Email",
       address: "Address",
+      address2: "Headquarters",
       workingHours: "Working Hours",
-      workingHoursContent: "Monday - Saturday: 8:00 - 18:00",
+      workingHoursContent: "Monday - Sunday: 8:00 - 18:00",
       sendMessage: "Send Message",
       name: "Name",
       emailPlaceholder: "Your Email",
@@ -397,10 +403,10 @@ export const translations = {
       contactNow: "지금 연락",
     },
     hero: {
-      title: "DT EVENT & TRAVEL",
+      title: "DT EVENT ",
       subtitle: "유한 책임 회사",
       description:
-        "새로운 한계를 정복하려는 열망이 2026년 DT EVENT & TRAVEL를 설립하도록 동기를 부여했습니다 - 이벤트 조직, 브랜드 미디어 및 관광 전문 브랜드.",
+        "새로운 한계를 정복하려는 열망이 DT EVENT 를 설립하도록 동기를 부여했습니다 - 이벤트 조직, 브랜드 미디어 및 관광 전문 브랜드.",
       subDescription: "이것은 시작이 아니라 전략의 연속입니다.",
       exploreServices: "서비스 탐색",
       viewProjects: "프로젝트 보기",
@@ -424,7 +430,7 @@ export const translations = {
           "다양한 예술 공연 유형: 유명 가수, 댄스 그룹, LED 댄서, 어쿠스틱 밴드, DJ... 이벤트를 더욱 활기차고 매력적으로 만듭니다.",
       },
       brandMedia: {
-        title: "브랜드 미디어",
+        title: "브랜드 인식 설계",
         description:
           "브랜드 인지도를 높이기 위한 효과적인 커뮤니케이션 전략 구축",
         detail:
@@ -440,12 +446,12 @@ export const translations = {
       conceptScript: {
         title: "콘셉트 및 대본",
         description:
-          "독특한 콘셉트 창출, 전문적인 이벤트 대본 작성",
+          "독특한 콘셉트 설계, 전문적인 이벤트 대본 작성",
         detail:
-          "크리에이티브 팀이 독특한 콘셉트 구축을 도와드립니다. 각 이벤트에 강력하고 차별적인 인상을 창출.",
+          "크리에이티브 팀이 독특한 콘셉트를 설계하고, 전문적인 이벤트 대본을 작성하여 각 이벤트에 강력하고 차별化的한 인상을 남깁니다.",
       },
       mediaProduction: {
-        title: "미디어 및 제작",
+        title: "미디어 및 브랜드 커뮤니케이션",
         description:
           "영화 촬영, 사진 촬영, 라이브 스트리밍 및 전문적인 비디오 제작",
         detail:
@@ -455,7 +461,7 @@ export const translations = {
       close: "닫기",
     },
     projects: {
-      title: "주요 프로젝트",
+      title: "프로젝트",
       description: "창의적이고 인상적인 경험을 통해 이야기를 들려드리겠습니다",
       eventAnniversary: {
         title: "회사 창립 기념일",
@@ -534,6 +540,7 @@ export const translations = {
       subDescription:
         "우리는 정교하고 효과적이며 의미 있는 이벤트를 실행하기 위한 포괄적인 솔루션을 제공합니다. 창의적이고 인상적인 경험을 통해 이야기를 들려드리겠습니다.",
       founded: "설립",
+      customers: "만족한 고객",
       successfulEvents: "성공적인 이벤트",
       learnMore: "회사에 대해 더 알아보기",
     },
@@ -545,8 +552,9 @@ export const translations = {
       phone: "전화",
       email: "이메일",
       address: "주소",
+      address2: "본사",
       workingHours: "근무 시간",
-      workingHoursContent: "월요일 - 토요일: 8:00 - 18:00",
+      workingHoursContent: "월요일 - 일요일: 8:00 - 18:00",
       sendMessage: "메시지 보내기",
       name: "이름",
       emailPlaceholder: "이메일을 입력하세요",
@@ -560,15 +568,16 @@ export const translations = {
     },
     footer: {
       description:
-        "DT EVENT & TRAVEL 유한 책임 회사 - 전문적이고 창의적이며 세련된 이벤트 조직 단위.",
+        "DT EVENT - 전문적이고 창의적이며 세련된 이벤트 조직 단위.",
       quickLinks: "빠른 링크",
       contact: "연락처",
       address:
         "No. 22, Phuong Tien Village, Dai Lai Commune, Bac Ninh Province, Vietnam",
+      address2: "Hanoi, Vietnam",
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© 2026 DT EVENT & TRAVEL. 세금 코드: 2301395323. 모든 권리 보유.",
+        "© DT EVENT . 세금 코드: 2301395323. 모든 권리 보유.",
     },
     floatingButtons: {
       call: "지금 전화",
