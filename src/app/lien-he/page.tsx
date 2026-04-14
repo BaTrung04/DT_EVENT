@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { IoHomeOutline } from "react-icons/io5";
 
 export default function ContactPage() {
   const { t, language, changeLanguage } = useLanguage();
@@ -29,7 +30,7 @@ export default function ContactPage() {
       href: "#",
     },
     {
-      icon: <FaMapMarkerAlt className="w-6 h-6" />,
+      icon: <IoHomeOutline className="w-6 h-6" />,
       title: t("contact.address2"),
       content: t("footer.address"),
       href: "#",

@@ -4,6 +4,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
 import { SiZalo, SiTiktok } from "react-icons/si";
+import { IoHomeOutline } from "react-icons/io5";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -17,14 +18,14 @@ export default function Footer() {
               <div className="w-10 h-10 gold-gradient rounded-full flex items-center justify-center">
                 <Image
                   src="/logo.svg"
-                  alt="DT Event"
+                  alt="DT EVENT & TRAVEL"
                   width={40}
                   height={40}
                   className="object-contain rounded-full border border-[#D4AF37]"
                 />{" "}
               </div>
               <span className="text-white text-xl font-bold gold-text">
-                DT Event
+                DT EVENT & TRAVEL
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -95,6 +96,14 @@ export default function Footer() {
                   {t("header.about")}
                 </a>
               </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-gray-400 hover:text-[#D4AF37] transition-colors duration-300"
+                >
+                  {t("header.contact")}
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -105,7 +114,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <svg
-                  className="w-7 h-7 text-[#D4AF37]"
+                  className="w-5 h-5 text-[#D4AF37]"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -123,6 +132,10 @@ export default function Footer() {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
+                <span className="text-gray-400">{t("footer.address2")}</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <IoHomeOutline className="w-7 h-7 text-[#D4AF37]" />
                 <span className="text-gray-400">{t("footer.address")}</span>
               </div>
               <div className="flex items-center space-x-3">

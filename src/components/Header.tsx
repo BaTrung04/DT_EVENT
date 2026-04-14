@@ -85,7 +85,7 @@ export default function Header() {
               />
 
               <span className="text-white text-xl font-bold gold-text">
-                DT Event
+                DT EVENT & TRAVEL
               </span>
             </Link>
           </motion.div>

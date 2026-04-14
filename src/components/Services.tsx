@@ -2,7 +2,14 @@
 
 import { useLanguage } from "@/hooks/useLanguage";
 import { motion } from "framer-motion";
-import { FaCalendarAlt, FaUsers, FaBullhorn } from "react-icons/fa";
+import {
+  FaCalendarAlt,
+  FaUsers,
+  FaBullhorn,
+  FaMicrophone,
+  FaLightbulb,
+  FaPhotoVideo,
+} from "react-icons/fa";
 import { useRouter } from "next/navigation";
 
 export default function Services() {
@@ -11,22 +18,46 @@ export default function Services() {
 
   const services = [
     {
-      titleKey: "services.eventOrganization.title",
-      descriptionKey: "services.eventOrganization.description",
+      title: t("services.eventOrganization.title"),
       icon: <FaCalendarAlt className="w-8 h-8" />,
       color: "from-blue-500 to-blue-600",
+      description: t("services.eventOrganization.description"),
+      detail: t("services.eventOrganization.detail"),
     },
     {
-      titleKey: "services.artPerformance.title",
-      descriptionKey: "services.artPerformance.description",
+      title: t("services.artPerformance.title"),
       icon: <FaUsers className="w-8 h-8" />,
       color: "from-green-500 to-green-600",
+      description: t("services.artPerformance.description"),
+      detail: t("services.artPerformance.detail"),
     },
     {
-      titleKey: "services.brandMedia.title",
-      descriptionKey: "services.brandMedia.description",
+      title: t("services.brandMedia.title"),
       icon: <FaBullhorn className="w-8 h-8" />,
       color: "from-purple-500 to-purple-600",
+      description: t("services.brandMedia.description"),
+      detail: t("services.brandMedia.detail"),
+    },
+    {
+      title: t("services.eventEquipment.title"),
+      icon: <FaMicrophone className="w-8 h-8" />,
+      color: "from-red-500 to-red-600",
+      description: t("services.eventEquipment.description"),
+      detail: t("services.eventEquipment.detail"),
+    },
+    {
+      title: t("services.conceptScript.title"),
+      icon: <FaLightbulb className="w-8 h-8" />,
+      color: "from-yellow-500 to-yellow-600",
+      description: t("services.conceptScript.description"),
+      detail: t("services.conceptScript.detail"),
+    },
+    {
+      title: t("services.mediaProduction.title"),
+      icon: <FaPhotoVideo className="w-8 h-8" />,
+      color: "from-pink-500 to-pink-600",
+      description: t("services.mediaProduction.description"),
+      detail: t("services.mediaProduction.detail"),
     },
   ];
 
@@ -81,12 +112,10 @@ export default function Services() {
               </div>
 
               <h3 className="text-xl font-bold mb-3 gold-text">
-                {t(service.titleKey)}
+                {service.title}
               </h3>
 
-              <p className="text-gray-400 text-sm">
-                {t(service.descriptionKey)}
-              </p>
+              <p className="text-gray-400 text-sm">{service.description}</p>
             </motion.div>
           ))}
         </motion.div>

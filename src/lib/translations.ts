@@ -10,9 +10,9 @@ export const translations = {
     },
     hero: {
       title: "CÔNG TY TRÁCH NHIỆM HỮU HẠN",
-      subtitle: "DT EVENT ",
+      subtitle: "DT EVENT & TRAVEL",
       description:
-        "Chính khát vọng chinh phục những giới hạn mới đã thôi thúc chúng tôi thành lập DT EVENT – thương hiệu chuyên sâu hoạt động trong lĩnh vực Tổ chức Sự kiện, Truyền thông Thương hiệu và du lịch.",
+        "Chính khát vọng chinh phục những giới hạn mới đã thôi thúc chúng tôi thành lập DT EVENT & TRAVEL – thương hiệu chuyên sâu hoạt động trong lĩnh vực Tổ chức Sự kiện, Truyền thông Thương hiệu và du lịch.",
       subDescription:
         "Đây không phải là sự khởi đầu, mà là bước tiếp nối chiến lược.",
       exploreServices: "Khám phá dịch vụ",
@@ -106,39 +106,49 @@ export const translations = {
         category: "Sự kiện",
       },
       // Actual Projects
-      kiemToanNhaNuoc: {
-        title: "Kiểm toán nhà nước",
-        description: "Kiểm toán nhà nước đại hội VIII",
-        category: "Hội Nghị",
+      hoinghi: {
+        title: "Hội Thảo Công Nghệ",
+        description: "Hội Thảo Công Nghệ",
+        category: "Hội Nghị",
       },
-      hoiThaoVNPT: {
-        title: "Hội thảo VNPT",
-        description: "Đổi mới sáng tạo VNPT",
-        category: "Triển Lãm",
+      ThietkeKeyvisual: {
+        title: "Thiết kế Keyvisual",
+        description: "Thiết kế Keyvisual - Bộ nhận diện thương hiệu",
+        category: "Thiết kế",
       },
-      hoiCho: {
-        title: "Làng giáng sinh",
-        description: "Làng giáng sinh Thanh Xuân",
+      hoicho: {
+        title: "Hội Chợ",
+        description: "Hội Chợ - Xúc tiến thương mại",
         category: "Hội chợ",
       },
-      vnptKinhTeDoThi: {
-        title: "VNPT Kinh tế đô thị",
-        description: "Mở khóa AI, dẫn nhịp thời sự số",
-        category: "Quảng bá",
+      thethao: {
+        title: "Thể thao",
+        description: "Thể thao",
+        category: "Thể thao",
       },
-      duLichQuangNinh: {
-        title: "Du lịch Quảng Ninh đoàn VNPT",
-        description: "Du lịch Quảng Ninh đoàn VNPT",
-        category: "Du lịch",
+      truyenthongthuonghieu: {
+        title: "Truyền thông thương hiệu",
+        description: "Truyền thông thương hiệu",
+        category: "Truyền thông",
       },
-      vnptFamilyRun: {
-        title: "VNPT FAMILY RUN 2025",
-        description: "Giải chạy VNPT",
-        category: "Giải chạy",
+      trienlamanh: {
+        title: "Triển lãm nghệ thuật",
+        description: "Triển lãm nghệ thuật",
+        category: "Triển lãm",
       },
-      duLichQuyNhon: {
-        title: "Du lịch Quy Nhơn",
-        description: "Du lịch Quy Nhơn",
+      bieudiennghethuat: {
+        title: "Biểu diễn nghệ thuật",
+        description: "Biểu diễn nghệ thuật",
+        category: "Biểu diễn",
+      },
+      vanhoadangian: {
+        title: "Văn hóa dân gian",
+        description: "Văn hóa dân gian",
+        category: "Văn hóa",
+      },
+      dulich: {
+        title: "Du lịch",
+        description: "Du lịch",
         category: "Du lịch",
       },
       viewDetails: "Xem chi tiết",
@@ -147,7 +157,7 @@ export const translations = {
     about: {
       title: "Về chúng tôi",
       description:
-        "DT EVENT  là đơn vị tổ chức sự kiện được xây dựng trên nền tảng kết hợp giữa kinh nghiệm vững chắc và năng lượng sáng tạo đột phá.",
+        "DT EVENT & TRAVEL là đơn vị tổ chức sự kiện được xây dựng trên nền tảng kết hợp giữa kinh nghiệm vững chắc và năng lượng sáng tạo đột phá.",
       subDescription:
         "Chúng tôi cung cấp các giải pháp toàn diện để thực thi những sự kiện chỉn chu, hiệu quả và giàu ý nghĩa. Hãy để chúng tôi cùng bạn kể câu chuyện bằng những trải nghiệm sáng tạo và đầy dấu ấn.",
       founded: "Năm thành lập",
@@ -157,7 +167,7 @@ export const translations = {
     },
     footer: {
       description:
-        "DT EVENT - Đơn vị tổ chức sự kiện chuyên nghiệp, sáng tạo và đẳng cấp.",
+        "DT EVENT & TRAVEL - Đơn vị tổ chức sự kiện chuyên nghiệp, sáng tạo và đẳng cấp.",
       quickLinks: "Liên kết nhanh",
       contact: "Liên hệ",
       address: "Số 22, Thôn Phương Triện, Xã Đại Lai, Tỉnh Bắc Ninh, Việt Nam",
@@ -165,7 +175,7 @@ export const translations = {
       phone: "0333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© DT EVENT . Mã số thuế: 2301395323. All rights reserved.",
+        "© DT EVENT & TRAVEL. Mã số thuế: 2301395323. All rights reserved.",
     },
     floatingButtons: {
       call: "Gọi ngay",
@@ -206,10 +216,10 @@ export const translations = {
       contactNow: "Contact Now",
     },
     hero: {
-      title: "DT EVENT ",
+      title: "DT EVENT & TRAVEL",
       subtitle: "LIMITED LIABILITY COMPANY",
       description:
-        "The aspiration to conquer new limits motivated us to establish DT EVENT - a brand specializing in Event Organization, Brand Media, and Tourism.",
+        "The aspiration to conquer new limits motivated us to establish DT EVENT & TRAVEL - a brand specializing in Event Organization, Brand Media, and Tourism.",
       subDescription:
         "This is not the beginning, but the continuation of the strategy.",
       exploreServices: "Explore Services",
@@ -307,6 +317,9 @@ export const translations = {
         description: "State Audit Congress VIII",
         category: "Conference",
       },
+      ThietkeKeyvisual: {
+
+      },
       hoiThaoVNPT: {
         title: "VNPT Workshop",
         description: "Innovation and Creativity VNPT",
@@ -343,7 +356,7 @@ export const translations = {
     about: {
       title: "About Us",
       description:
-        "DT EVENT is an event organization unit built on the foundation of combining solid experience and breakthrough creative energy.",
+        "DT EVENT & TRAVEL is an event organization unit built on the foundation of combining solid experience and breakthrough creative energy.",
       subDescription:
         "We provide comprehensive solutions to execute sophisticated, effective and meaningful events. Let us help you tell stories through creative and impressive experiences.",
       founded: "Founded",
@@ -353,7 +366,7 @@ export const translations = {
     },
     footer: {
       description:
-        "DT EVENT - Professional, creative and classy event organization unit.",
+        "DT EVENT & TRAVEL - Professional, creative and classy event organization unit.",
       quickLinks: "Quick Links",
       contact: "Contact",
       address:
@@ -362,7 +375,7 @@ export const translations = {
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "DT EVENT . Tax code: 2301395323. All rights reserved.",
+        "DT EVENT & TRAVEL. Tax code: 2301395323. All rights reserved.",
     },
     contact: {
       title: "Contact",
@@ -403,10 +416,10 @@ export const translations = {
       contactNow: "지금 연락",
     },
     hero: {
-      title: "DT EVENT ",
+      title: "DT EVENT & TRAVEL",
       subtitle: "유한 책임 회사",
       description:
-        "새로운 한계를 정복하려는 열망이 DT EVENT 를 설립하도록 동기를 부여했습니다 - 이벤트 조직, 브랜드 미디어 및 관광 전문 브랜드.",
+        "새로운 한계를 정복하려는 열망이 DT EVENT & TRAVEL 를 설립하도록 동기를 부여했습니다 - 이벤트 조직, 브랜드 미디어 및 관광 전문 브랜드.",
       subDescription: "이것은 시작이 아니라 전략의 연속입니다.",
       exploreServices: "서비스 탐색",
       viewProjects: "프로젝트 보기",
@@ -568,7 +581,7 @@ export const translations = {
     },
     footer: {
       description:
-        "DT EVENT - 전문적이고 창의적이며 세련된 이벤트 조직 단위.",
+        "DT EVENT & TRAVEL - 전문적이고 창의적이며 세련된 이벤트 조직 단위.",
       quickLinks: "빠른 링크",
       contact: "연락처",
       address:
@@ -577,7 +590,7 @@ export const translations = {
       phone: "+84 333 703 374",
       email: "dteventandtravel8230@gmail.com",
       copyright:
-        "© DT EVENT . 세금 코드: 2301395323. 모든 권리 보유.",
+        "© DT EVENT & TRAVEL. 세금 코드: 2301395323. 모든 권리 보유.",
     },
     floatingButtons: {
       call: "지금 전화",
