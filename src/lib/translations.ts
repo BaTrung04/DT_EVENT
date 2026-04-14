@@ -153,6 +153,7 @@ export const translations = {
       },
       viewDetails: "Xem chi tiết",
       viewAllProjects: "Xem tất cả dự án",
+      illustration:"Ảnh minh họa",
     },
     about: {
       title: "Về chúng tôi",
@@ -311,47 +312,55 @@ export const translations = {
           "Application of LED screens in events, exhibitions and shopping centers",
         category: "Events",
       },
-      // Actual Projects
-      kiemToanNhaNuoc: {
-        title: "State Audit",
-        description: "State Audit Congress VIII",
+     // Actual Projects
+      hoinghi: {
+        title: "Conference",
+        description: "Conference",
         category: "Conference",
       },
       ThietkeKeyvisual: {
-
+        title: "Keyvisual Design",
+        description: "Keyvisual Design - Brand Identity",
+        category: "Design",
       },
-      hoiThaoVNPT: {
-        title: "VNPT Workshop",
-        description: "Innovation and Creativity VNPT",
+      hoicho: {
+        title: "Trade Fair",
+        description: "Trade Fair - Trade Promotion",
+        category: "Trade Fair",
+      },
+      thethao: {
+        title: "Sports",
+        description: "Sports",
+        category: "Sports",
+      },
+      truyenthongthuonghieu: {
+        title: "Brand Communication",
+        description: "Brand Communication",
+        category: "Communication",
+      },
+      trienlamanh: {
+        title: "Art Exhibition",
+        description: "Art Exhibition",
         category: "Exhibition",
       },
-      hoiCho: {
-        title: "Christmas Village",
-        description: "Christmas Village Thanh Xuan",
-        category: "Christmas Market",
+      bieudiennghethuat: {
+        title: "Art Performance",
+        description: "Art Performance",
+        category: "Performance",
       },
-      vnptKinhTeDoThi: {
-        title: "VNPT Urban Economics",
-        description: "Unlock AI, lead digital news",
-        category: "Promotion",
+      vanhoadangian: {
+        title: "Folk Culture",
+        description: "Folk Culture",
+        category: "Culture",
       },
-      duLichQuangNinh: {
-        title: "VNPT Quang Ninh Tourism",
-        description: "VNPT Quang Ninh Tourism",
-        category: "Tourism",
-      },
-      vnptFamilyRun: {
-        title: "VNPT FAMILY RUN 2025",
-        description: "VNPT Running Race",
-        category: "Running Race",
-      },
-      duLichQuyNhon: {
-        title: "Quy Nhon Tourism",
-        description: "Quy Nhon Tourism",
+      dulich: {
+        title: "Tourism",
+        description: "Tourism",
         category: "Tourism",
       },
       viewDetails: "View Details",
       viewAllProjects: "View All Projects",
+      illustration:"Illustration",
     },
     about: {
       title: "About Us",
@@ -507,44 +516,55 @@ export const translations = {
         description: "이벤트, 전시회 및 쇼핑몰에서 LED 스크린 응용",
         category: "이벤트",
       },
-      // Actual Projects
-      kiemToanNhaNuoc: {
-        title: "국가 감사",
-        description: "국가 감사 대회 VIII",
-        category: "회의",
+    // Actual Projects
+      hoinghi: {
+        title: "컨퍼런스",
+        description: "컨퍼런스",
+        category: "컨퍼런스",
       },
-      hoiThaoVNPT: {
-        title: "VNPT 워크샵",
-        description: "혁신과 창의성 VNPT",
+      ThietkeKeyvisual: {
+        title: "키비주얼 디자인",
+        description: "키비주얼 디자인 - 브랜드 인식도",
+        category: "디자인",
+      },
+      hoicho: {
+        title: "전시회",
+        description: "전시회 - 상품 홍보",
         category: "전시회",
       },
-      hoiCho: {
-        title: "크리스마스 빌리지",
-        description: "탕쑤안 크리스마스 빌리지",
-        category: "축제",
+      thethao: {
+        title: "스포츠",
+        description: "스포츠",
+        category: "스포츠",
       },
-      vnptKinhTeDoThi: {
-        title: "VNPT 도시 경제",
-        description: "AI 잠금 해제, 디지털 뉴스 리드",
-        category: "홍보",
+      truyenthongthuonghieu: {
+        title: "브랜드 커뮤니케이션",
+        description: "브랜드 커뮤니케이션",
+        category: "브랜드 커뮤니케이션",
       },
-      duLichQuangNinh: {
-        title: "VNPT 광닝 관광",
-        description: "VNPT 광닝 관광",
-        category: "관광",
+      trienlamanh: {
+        title: "예술 전시회",
+        description: "예술 전시회",
+        category: "전시회",
       },
-      vnptFamilyRun: {
-        title: "VNPT FAMILY RUN 2025",
-        description: "VNPT 달리기 대회",
-        category: "달리기 대회",
+      bieudiennghethuat: {
+        title: "예술 공연",
+        description: "예술 공연",
+        category: "공연",
       },
-      duLichQuyNhon: {
-        title: "퀴논 관광",
-        description: "퀴논 관광",
-        category: "관광",
+      vanhoadangian: {
+        title: "민속 문화",
+        description: "민속 문화",
+        category: "문화",
+      },
+      dulich: {
+        title: "여행",
+        description: "여행",
+        category: "여행",
       },
       viewDetails: "상세 보기",
       viewAllProjects: "모든 프로젝트 보기",
+      illustration:"이미지 미리보기",
     },
     about: {
       title: "회사 소개",
